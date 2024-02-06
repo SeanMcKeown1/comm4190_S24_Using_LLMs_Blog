@@ -7,11 +7,18 @@
     "text": "About this blog…"
   },
   {
+    "objectID": "posts/001_First_Post/index.html",
+    "href": "posts/001_First_Post/index.html",
+    "title": "OK testing this thing",
+    "section": "",
+    "text": "A test post"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My Explorations with LLMs: Sean McKeown and the LLMS/ (Think Jackson 5 but much worse)",
     "section": "",
-    "text": "A test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "OK testing this thing\n\n\n\n\n\n\nLLMs\n\n\ntesting\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 6, 2024\n\n\nSean\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/000_test_post/index.html",

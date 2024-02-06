@@ -1,5 +1,5 @@
 ---
-title: My Explorations with LLMs: Sean McKeown and the LLMS (Think Jackson 5 but much worse)
+title: My Explorations with LLMs: Sean McKeown and the LLMS/ (Think Jackson 5 but much worse)
 listing:
   contents: posts
   sort: date desc

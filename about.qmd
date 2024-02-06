@@ -2,7 +2,7 @@
 title: About
 image: IMG_4578.jpeg
 about:
-  template: jolla
+  template: jolla/
 ---
 
 About this blog

@@ -1,255 +1,24 @@
 [
   {
-    "objectID": "posts/Feb12Post/GeneratingLists.html",
-    "href": "posts/Feb12Post/GeneratingLists.html",
-    "title": "Generating Lists, Week 5 Post 1",
+    "objectID": "posts/003_Feb13Post/Valentines.html",
+    "href": "posts/003_Feb13Post/Valentines.html",
+    "title": "My Blog: Sean McKeown and the LLMS/",
     "section": "",
-    "text": "I want to get a succinct list of the yards leaders per team for the NFL on the ground and in the air. I read the assigned chapter and want to create a hierarchical list that can be placed into a python book. This is my original prompt for Chat llama-2-13b-chat and Chat GPT 3.5.\n\n\nPlease give me a list of the team leaders in yards on the ground and in the air for every NFL team in 2020\n\n\n\n\nSure, here is a list of the top team leaders in yards on the ground and in the air for every NFL team in the 2020 season, based on the official NFL statistics:\n\nGround Leaders:\n\nChristian McCaffrey, Carolina Panthers - 1,387 yards\nDerrick Henry, Tennessee Titans - 1,059 yards\nEzekiel Elliott, Dallas Cowboys - 979 yards\nAlvin Kamara, New Orleans Saints - 939 yards\nNick Chubb, Cleveland Browns - 865 yards\n\nAir Leaders:\n\nTom Brady, Tampa Bay Buccaneers - 4,633 yards\nDrew Brees, New Orleans Saints - 4,384 yards\nAaron Rodgers, Green Bay Packers - 4,291 yards\nMatt Ryan, Atlanta Falcons - 4,271 yards\nRussell Wilson, Seattle Seahawks - 4,255 yards\n\nIt’s worth noting that these statistics are based on the regular season only and do not include postseason play. Also, the rankings are based on the team leaders in each category, not the overall leaders in the NFL.\n\nThese results fail to give me the wanted outcome. These are not the team leaders, but the overall leaders. This result is from Llama while Chat GPT claimed to be incapable of the request. I will change my prompt to try and reflect better results. “Please give me a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season. Specifically list the two players per team, and which team they played for”\n\n\n\n\n\nChat GPT 3.5 Here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season:\n\n\nArizona Cardinals\n\nRushing Leader: Kenyan Drake\nReceiving Leader: DeAndre Hopkins\n\nAtlanta Falcons\n\nRushing Leader: Todd Gurley\nReceiving Leader: Calvin Ridley\n\nBaltimore Ravens\n\nRushing Leader: Lamar Jackson\nReceiving Leader: Marquise Brown\n\nBuffalo Bills\n\nRushing Leader: Devin Singletary\nReceiving Leader: Stefon Diggs\n\nCarolina Panthers\n\nRushing Leader: Mike Davis\nReceiving Leader: Robby Anderson\n\nChicago Bears\n\nRushing Leader: David Montgomery\nReceiving Leader: Allen Robinson\n\nCincinnati Bengals\n\nRushing Leader: Joe Mixon\nReceiving Leader: Tyler Boyd\n\nCleveland Browns\n\nRushing Leader: Nick Chubb\nReceiving Leader: Jarvis Landry\n\nDallas Cowboys\n\nRushing Leader: Ezekiel Elliott\nReceiving Leader: Amari Cooper\n\nDenver Broncos\n\nRushing Leader: Melvin Gordon\nReceiving Leader: Jerry Jeudy\n\nDetroit Lions\n\nRushing Leader: D’Andre Swift\nReceiving Leader: Marvin Jones\n\nGreen Bay Packers\n\nRushing Leader: Aaron Jones\nReceiving Leader: Davante Adams\n\nHouston Texans\n\nRushing Leader: David Johnson\nReceiving Leader: Brandin Cooks\n\nIndianapolis Colts\n\nRushing Leader: Jonathan Taylor\nReceiving Leader: T.Y. Hilton\n\nJacksonville Jaguars\n\nRushing Leader: James Robinson\nReceiving Leader: DJ Chark\n\nKansas City Chiefs\n\nRushing Leader: Clyde Edwards-Helaire\nReceiving Leader: Travis Kelce\n\nLas Vegas Raiders\n\nRushing Leader: Josh Jacobs\nReceiving Leader: Darren Waller\n\nLos Angeles Chargers\n\nRushing Leader: Joshua Kelley\nReceiving Leader: Keenan Allen\n\nLos Angeles Rams\n\nRushing Leader: Darrell Henderson\nReceiving Leader: Cooper Kupp\n\nMiami Dolphins\n\nRushing Leader: Myles Gaskin\nReceiving Leader: DeVante Parker\n\nMinnesota Vikings\n\nRushing Leader: Dalvin Cook\nReceiving Leader: Justin Jefferson\n\nNew England Patriots\n\nRushing Leader: Damien Harris\nReceiving Leader: Jakobi Meyers\n\nNew Orleans Saints\n\nRushing Leader: Alvin Kamara\nReceiving Leader: Alvin Kamara\n\nNew York Giants\n\nRushing Leader: Wayne Gallman\nReceiving Leader: Darius Slayton\n\nNew York Jets\n\nRushing Leader: Frank Gore\nReceiving Leader: Jamison Crowder\n\nPhiladelphia Eagles\n\nRushing Leader: Miles Sanders\nReceiving Leader: Travis Fulgham\n\nPittsburgh Steelers\n\nRushing Leader: James Conner\nReceiving Leader: Diontae Johnson\n\nSan Francisco 49ers\n\nRushing Leader: Raheem Mostert\nReceiving Leader: Brandon Aiyuk\n\nSeattle Seahawks\n\nRushing Leader: Chris Carson\nReceiving Leader: DK Metcalf\n\nTampa Bay Buccaneers\n\nRushing Leader: Ronald Jones II\nReceiving Leader: Mike Evans\n\nTennessee Titans\n\nRushing Leader: Derrick Henry\nReceiving Leader: Corey Davis\n\nWashington Football Team\n\nRushing Leader: Antonio Gibson\nReceiving Leader: Terry McLaurin\n\n\nI hope this list is helpful to you. Let me know if you need any more information. * Llama Sure, here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season, based on the official NFL statistics:\nRushers:\n\nArizona Cardinals - Kenyan Drake (1059 yards) and David Johnson (812 yards)\nAtlanta Falcons - Devonta Freeman (833 yards) and Tevin Coleman (725 yards)\nBaltimore Ravens - Mark Ingram (1,018 yards) and Gus Edwards (723 yards)\nBuffalo Bills - Devin Singletary (977 yards) and Frank Gore (721 yards)\nCarolina Panthers - Christian McCaffrey (1,387 yards) and Cameron Artis-Payne (515 yards)\nChicago Bears - David Montgomery (1,059 yards) and Tarik Cohen (444 yards)\nCincinnati Bengals - Joe Mixon (1,137 yards) and Giovani Bernard (432 yards)\nCleveland Browns - Nick Chubb (865 yards) and Kareem Hunt (467 yards)\nDallas Cowboys - Ezekiel Elliott (979 yards) and Tony Pollard (275 yards)\nDenver Broncos - Melvin Gordon (841 yards) and Phillip Lindsay (704 yards)\nDetroit Lions - Kerryon Johnson (842 yards) and Ty Johnson (445 yards)\nGreen Bay Packers - Aaron Jones (1,084 yards) and Jamaal Williams (464 yards)\nHouston Texans - Carlos Hyde (1,070 yards) and Duke Johnson (427 yards)\nIndianapolis Colts - Jonathan Williams (833 yards) and Nyheim Hines (444 yards)\nJacksonville Jaguars - Leonard Fournette (815 yards) and Chris Thompson (367 yards)\nKansas City Chiefs - Darrel Williams (755 yards) and LeSean McCoy (435 yards)\nLos Angeles Chargers - Austin Ekeler (847 yards) and Melvin Gordon (476 yards)\nLos Angeles Rams - Todd Gurley (857 yards) and Malcolm Brown (415 yards)\nMiami Dolphins - Myles Gaskin (864 yards) and Kalen Ballage (427 yards)\nMinnesota Vikings - Dalvin Cook (1,135 yards) and Alexander Mattison (271 yards)\nNew England Patriots - Sony Michel (844 yards) and Rex Burkhead (333 yards)\nNew Orleans Saints - Alvin Kamara (939 yards) and Latavius Murray (464 yards)\nNew York Giants - Saquon Barkley (1,003 yards) and Wayne Gallman (407 yards)\nNew York Jets - Le’Veon Bell (777 yards) and Frank Gore (444 yards)\nOakland Raiders - Josh Jacobs (1,065 yards) and DeAndré Washington (297 yards)\nPhiladelphia Eagles - Miles Sanders (866 yards) and Boston Scott (344 yards)\nPittsburgh Steelers - James Conner (1,059 yards) and Benny Sapp (244 yards)\nSan Francisco 49ers - Tevin Coleman (834 yards) and Matt Breida (425 yards)\nSeattle Seahawks - Chris Carson (1,230 yards) and Rashaad Penny (419 yards)\nTampa Bay Buccaneers - Peyton Barber (871 yards) and Ronald Jones II (322 yards)\nTennessee Titans - Derrick Henry (1,059 yards) and Dion Lewis (427 yards)\nWashington Redskins - Adrian Peterson (1,042 yards) and Derrius Guice (425 yards)\n\nReceivers:\n\nArizona Cardinals - Larry Fitzger\n\n\nThese results are closer to the wanted outcome, but still contain many flaws. Both sets don’t have the correct year, but I will ignore that for now since it doesn’t matter for the specific goal of making a correct codable hierarchy. The first one by chat GPT correctly lists the desired information in the way I hoped for. Each leader is listed, and is listed under their team. The LLama answer is incorrect because it gives the top two for each stat, and then runs out of room for the receiver section. I like the Chat GPT answer, and will now move on to making this a parsed list.\n\n\n\n\n\nChat GPT prompted: an you give me the code required as to parse this list into sections so it can be put into a markdown python note book. I would like there to be the general list with a heading for each team, and subheadings for rushing leaders and passing leaders.\n\n\n\n # List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    # Add data for the rest of the teams here...\n}\n\n# Generate markdown content\nmarkdown_content = ''\nfor team, leaders in team_data.items():\n    markdown_content += f'## {team}\\n'\n    markdown_content += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n# Print markdown content\nprint(markdown_content)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n\n\n\n\nThis data is obviously flawed and incomplete, but serves as a good starting point for finalizing my intended results. With more prodding, I was able to get Chat GPT 3.5 to give the full code as to create the intended marked down list I wanted for my information.\n\n\n# List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    'Baltimore Ravens': {\n        'Rushing Leader': 'Lamar Jackson',\n        'Receiving Leader': 'Marquise Brown'\n    },\n    'Buffalo Bills': {\n        'Rushing Leader': 'Devin Singletary',\n        'Receiving Leader': 'Stefon Diggs'\n    },\n    'Carolina Panthers': {\n        'Rushing Leader': 'Mike Davis',\n        'Receiving Leader': 'Robby Anderson'\n    },\n    'Chicago Bears': {\n        'Rushing Leader': 'David Montgomery',\n        'Receiving Leader': 'Allen Robinson'\n    },\n    'Cincinnati Bengals': {\n        'Rushing Leader': 'Joe Mixon',\n        'Receiving Leader': 'Tyler Boyd'\n    },\n    'Cleveland Browns': {\n        'Rushing Leader': 'Nick Chubb',\n        'Receiving Leader': 'Jarvis Landry'\n    },\n    'Dallas Cowboys': {\n        'Rushing Leader': 'Ezekiel Elliott',\n        'Receiving Leader': 'Amari Cooper'\n    },\n    'Denver Broncos': {\n        'Rushing Leader': 'Melvin Gordon',\n        'Receiving Leader': 'Jerry Jeudy'\n    },\n    'Detroit Lions': {\n        'Rushing Leader': \"D'Andre Swift\",\n        'Receiving Leader': 'Marvin Jones'\n    },\n    'Green Bay Packers': {\n        'Rushing Leader': 'Aaron Jones',\n        'Receiving Leader': 'Davante Adams'\n    },\n    'Houston Texans': {\n        'Rushing Leader': 'David Johnson',\n        'Receiving Leader': 'Brandin Cooks'\n    },\n    'Indianapolis Colts': {\n        'Rushing Leader': 'Jonathan Taylor',\n        'Receiving Leader': 'T.Y. Hilton'\n    },\n    'Jacksonville Jaguars': {\n        'Rushing Leader': 'James Robinson',\n        'Receiving Leader': 'DJ Chark'\n    },\n    'Kansas City Chiefs': {\n        'Rushing Leader': 'Clyde Edwards-Helaire',\n        'Receiving Leader': 'Travis Kelce'\n    },\n    'Las Vegas Raiders': {\n        'Rushing Leader': 'Josh Jacobs',\n        'Receiving Leader': 'Darren Waller'\n    },\n    'Los Angeles Chargers': {\n        'Rushing Leader': 'Joshua Kelley',\n        'Receiving Leader': 'Keenan Allen'\n    },\n    'Los Angeles Rams': {\n        'Rushing Leader': 'Darrell Henderson',\n        'Receiving Leader': 'Cooper Kupp'\n    },\n    'Miami Dolphins': {\n        'Rushing Leader': 'Myles Gaskin',\n        'Receiving Leader': 'DeVante Parker'\n    },\n    'Minnesota Vikings': {\n        'Rushing Leader': 'Dalvin Cook',\n        'Receiving Leader': 'Justin Jefferson'\n    },\n    'New England Patriots': {\n        'Rushing Leader': 'Damien Harris',\n        'Receiving Leader': 'Jakobi Meyers'\n    },\n    'New Orleans Saints': {\n        'Rushing Leader': 'Alvin Kamara',\n        'Receiving Leader': 'Alvin Kamara'\n    },\n    'New York Giants': {\n        'Rushing Leader': 'Wayne Gallman',\n        'Receiving Leader': 'Darius Slayton'\n    },\n    'New York Jets': {\n        'Rushing Leader': 'Frank Gore',\n        'Receiving Leader': 'Jamison Crowder'\n    },\n    'Philadelphia Eagles': {\n        'Rushing Leader': 'Miles Sanders',\n        'Receiving Leader': 'Travis Fulgham'\n    },\n    'Pittsburgh Steelers': {\n        'Rushing Leader': 'James Conner',\n        'Receiving Leader': 'Diontae Johnson'\n    },\n    'San Francisco 49ers': {\n        'Rushing Leader': 'Raheem Mostert',\n        'Receiving Leader': 'Brandon Aiyuk'\n    },\n    'Seattle Seahawks': {\n        'Rushing Leader': 'Chris Carson',\n        'Receiving Leader': 'DK Metcalf'\n    },\n    'Tampa Bay Buccaneers': {\n        'Rushing Leader': 'Ronald Jones II',\n        'Receiving Leader': 'Mike Evans'\n    },\n    'Tennessee Titans': {\n        'Rushing Leader': 'Derrick Henry',\n        'Receiving Leader': 'Corey Davis'\n    },\n    'Washington Football Team': { \n        'Rushing Leader': 'Antonio Gibson',\n        'Receiving Leader': 'Terry McLaurin'\n    },\n}\n\nmarkdown_content1 = ''\nfor team, leaders in team_data.items():\n    markdown_content1 += f'## {team}\\n'\n    markdown_content1 += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content1 += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n\nprint(markdown_content1)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n## Baltimore Ravens\n### Rushing Leader: Lamar Jackson\n### Receiving Leader: Marquise Brown\n\n## Buffalo Bills\n### Rushing Leader: Devin Singletary\n### Receiving Leader: Stefon Diggs\n\n## Carolina Panthers\n### Rushing Leader: Mike Davis\n### Receiving Leader: Robby Anderson\n\n## Chicago Bears\n### Rushing Leader: David Montgomery\n### Receiving Leader: Allen Robinson\n\n## Cincinnati Bengals\n### Rushing Leader: Joe Mixon\n### Receiving Leader: Tyler Boyd\n\n## Cleveland Browns\n### Rushing Leader: Nick Chubb\n### Receiving Leader: Jarvis Landry\n\n## Dallas Cowboys\n### Rushing Leader: Ezekiel Elliott\n### Receiving Leader: Amari Cooper\n\n## Denver Broncos\n### Rushing Leader: Melvin Gordon\n### Receiving Leader: Jerry Jeudy\n\n## Detroit Lions\n### Rushing Leader: D'Andre Swift\n### Receiving Leader: Marvin Jones\n\n## Green Bay Packers\n### Rushing Leader: Aaron Jones\n### Receiving Leader: Davante Adams\n\n## Houston Texans\n### Rushing Leader: David Johnson\n### Receiving Leader: Brandin Cooks\n\n## Indianapolis Colts\n### Rushing Leader: Jonathan Taylor\n### Receiving Leader: T.Y. Hilton\n\n## Jacksonville Jaguars\n### Rushing Leader: James Robinson\n### Receiving Leader: DJ Chark\n\n## Kansas City Chiefs\n### Rushing Leader: Clyde Edwards-Helaire\n### Receiving Leader: Travis Kelce\n\n## Las Vegas Raiders\n### Rushing Leader: Josh Jacobs\n### Receiving Leader: Darren Waller\n\n## Los Angeles Chargers\n### Rushing Leader: Joshua Kelley\n### Receiving Leader: Keenan Allen\n\n## Los Angeles Rams\n### Rushing Leader: Darrell Henderson\n### Receiving Leader: Cooper Kupp\n\n## Miami Dolphins\n### Rushing Leader: Myles Gaskin\n### Receiving Leader: DeVante Parker\n\n## Minnesota Vikings\n### Rushing Leader: Dalvin Cook\n### Receiving Leader: Justin Jefferson\n\n## New England Patriots\n### Rushing Leader: Damien Harris\n### Receiving Leader: Jakobi Meyers\n\n## New Orleans Saints\n### Rushing Leader: Alvin Kamara\n### Receiving Leader: Alvin Kamara\n\n## New York Giants\n### Rushing Leader: Wayne Gallman\n### Receiving Leader: Darius Slayton\n\n## New York Jets\n### Rushing Leader: Frank Gore\n### Receiving Leader: Jamison Crowder\n\n## Philadelphia Eagles\n### Rushing Leader: Miles Sanders\n### Receiving Leader: Travis Fulgham\n\n## Pittsburgh Steelers\n### Rushing Leader: James Conner\n### Receiving Leader: Diontae Johnson\n\n## San Francisco 49ers\n### Rushing Leader: Raheem Mostert\n### Receiving Leader: Brandon Aiyuk\n\n## Seattle Seahawks\n### Rushing Leader: Chris Carson\n### Receiving Leader: DK Metcalf\n\n## Tampa Bay Buccaneers\n### Rushing Leader: Ronald Jones II\n### Receiving Leader: Mike Evans\n\n## Tennessee Titans\n### Rushing Leader: Derrick Henry\n### Receiving Leader: Corey Davis\n\n## Washington Football Team\n### Rushing Leader: Antonio Gibson\n### Receiving Leader: Terry McLaurin"
+    "text": "title: “Sean’s Valentines Day!” description: “Destroy them mentally” author: “sean” date: “2/13/2024” categories: - LLMS - Testing - Valentines day"
   },
   {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#prompting-a-better-list",
-    "href": "posts/Feb12Post/GeneratingLists.html#prompting-a-better-list",
-    "title": "Generating Lists, Week 5 Post 1",
+    "objectID": "posts/004_Feb17thPost/index.html",
+    "href": "posts/004_Feb17thPost/index.html",
+    "title": "Can I recreat an Image with A.I.",
     "section": "",
-    "text": "I want to get a succinct list of the yards leaders per team for the NFL on the ground and in the air. I read the assigned chapter and want to create a hierarchical list that can be placed into a python book. This is my original prompt for Chat llama-2-13b-chat and Chat GPT 3.5.\n\n\nPlease give me a list of the team leaders in yards on the ground and in the air for every NFL team in 2020\n\n\n\n\nSure, here is a list of the top team leaders in yards on the ground and in the air for every NFL team in the 2020 season, based on the official NFL statistics:\n\nGround Leaders:\n\nChristian McCaffrey, Carolina Panthers - 1,387 yards\nDerrick Henry, Tennessee Titans - 1,059 yards\nEzekiel Elliott, Dallas Cowboys - 979 yards\nAlvin Kamara, New Orleans Saints - 939 yards\nNick Chubb, Cleveland Browns - 865 yards\n\nAir Leaders:\n\nTom Brady, Tampa Bay Buccaneers - 4,633 yards\nDrew Brees, New Orleans Saints - 4,384 yards\nAaron Rodgers, Green Bay Packers - 4,291 yards\nMatt Ryan, Atlanta Falcons - 4,271 yards\nRussell Wilson, Seattle Seahawks - 4,255 yards\n\nIt’s worth noting that these statistics are based on the regular season only and do not include postseason play. Also, the rankings are based on the team leaders in each category, not the overall leaders in the NFL.\n\nThese results fail to give me the wanted outcome. These are not the team leaders, but the overall leaders. This result is from Llama while Chat GPT claimed to be incapable of the request. I will change my prompt to try and reflect better results. “Please give me a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season. Specifically list the two players per team, and which team they played for”\n\n\n\n\n\nChat GPT 3.5 Here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season:\n\n\nArizona Cardinals\n\nRushing Leader: Kenyan Drake\nReceiving Leader: DeAndre Hopkins\n\nAtlanta Falcons\n\nRushing Leader: Todd Gurley\nReceiving Leader: Calvin Ridley\n\nBaltimore Ravens\n\nRushing Leader: Lamar Jackson\nReceiving Leader: Marquise Brown\n\nBuffalo Bills\n\nRushing Leader: Devin Singletary\nReceiving Leader: Stefon Diggs\n\nCarolina Panthers\n\nRushing Leader: Mike Davis\nReceiving Leader: Robby Anderson\n\nChicago Bears\n\nRushing Leader: David Montgomery\nReceiving Leader: Allen Robinson\n\nCincinnati Bengals\n\nRushing Leader: Joe Mixon\nReceiving Leader: Tyler Boyd\n\nCleveland Browns\n\nRushing Leader: Nick Chubb\nReceiving Leader: Jarvis Landry\n\nDallas Cowboys\n\nRushing Leader: Ezekiel Elliott\nReceiving Leader: Amari Cooper\n\nDenver Broncos\n\nRushing Leader: Melvin Gordon\nReceiving Leader: Jerry Jeudy\n\nDetroit Lions\n\nRushing Leader: D’Andre Swift\nReceiving Leader: Marvin Jones\n\nGreen Bay Packers\n\nRushing Leader: Aaron Jones\nReceiving Leader: Davante Adams\n\nHouston Texans\n\nRushing Leader: David Johnson\nReceiving Leader: Brandin Cooks\n\nIndianapolis Colts\n\nRushing Leader: Jonathan Taylor\nReceiving Leader: T.Y. Hilton\n\nJacksonville Jaguars\n\nRushing Leader: James Robinson\nReceiving Leader: DJ Chark\n\nKansas City Chiefs\n\nRushing Leader: Clyde Edwards-Helaire\nReceiving Leader: Travis Kelce\n\nLas Vegas Raiders\n\nRushing Leader: Josh Jacobs\nReceiving Leader: Darren Waller\n\nLos Angeles Chargers\n\nRushing Leader: Joshua Kelley\nReceiving Leader: Keenan Allen\n\nLos Angeles Rams\n\nRushing Leader: Darrell Henderson\nReceiving Leader: Cooper Kupp\n\nMiami Dolphins\n\nRushing Leader: Myles Gaskin\nReceiving Leader: DeVante Parker\n\nMinnesota Vikings\n\nRushing Leader: Dalvin Cook\nReceiving Leader: Justin Jefferson\n\nNew England Patriots\n\nRushing Leader: Damien Harris\nReceiving Leader: Jakobi Meyers\n\nNew Orleans Saints\n\nRushing Leader: Alvin Kamara\nReceiving Leader: Alvin Kamara\n\nNew York Giants\n\nRushing Leader: Wayne Gallman\nReceiving Leader: Darius Slayton\n\nNew York Jets\n\nRushing Leader: Frank Gore\nReceiving Leader: Jamison Crowder\n\nPhiladelphia Eagles\n\nRushing Leader: Miles Sanders\nReceiving Leader: Travis Fulgham\n\nPittsburgh Steelers\n\nRushing Leader: James Conner\nReceiving Leader: Diontae Johnson\n\nSan Francisco 49ers\n\nRushing Leader: Raheem Mostert\nReceiving Leader: Brandon Aiyuk\n\nSeattle Seahawks\n\nRushing Leader: Chris Carson\nReceiving Leader: DK Metcalf\n\nTampa Bay Buccaneers\n\nRushing Leader: Ronald Jones II\nReceiving Leader: Mike Evans\n\nTennessee Titans\n\nRushing Leader: Derrick Henry\nReceiving Leader: Corey Davis\n\nWashington Football Team\n\nRushing Leader: Antonio Gibson\nReceiving Leader: Terry McLaurin\n\n\nI hope this list is helpful to you. Let me know if you need any more information. * Llama Sure, here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season, based on the official NFL statistics:\nRushers:\n\nArizona Cardinals - Kenyan Drake (1059 yards) and David Johnson (812 yards)\nAtlanta Falcons - Devonta Freeman (833 yards) and Tevin Coleman (725 yards)\nBaltimore Ravens - Mark Ingram (1,018 yards) and Gus Edwards (723 yards)\nBuffalo Bills - Devin Singletary (977 yards) and Frank Gore (721 yards)\nCarolina Panthers - Christian McCaffrey (1,387 yards) and Cameron Artis-Payne (515 yards)\nChicago Bears - David Montgomery (1,059 yards) and Tarik Cohen (444 yards)\nCincinnati Bengals - Joe Mixon (1,137 yards) and Giovani Bernard (432 yards)\nCleveland Browns - Nick Chubb (865 yards) and Kareem Hunt (467 yards)\nDallas Cowboys - Ezekiel Elliott (979 yards) and Tony Pollard (275 yards)\nDenver Broncos - Melvin Gordon (841 yards) and Phillip Lindsay (704 yards)\nDetroit Lions - Kerryon Johnson (842 yards) and Ty Johnson (445 yards)\nGreen Bay Packers - Aaron Jones (1,084 yards) and Jamaal Williams (464 yards)\nHouston Texans - Carlos Hyde (1,070 yards) and Duke Johnson (427 yards)\nIndianapolis Colts - Jonathan Williams (833 yards) and Nyheim Hines (444 yards)\nJacksonville Jaguars - Leonard Fournette (815 yards) and Chris Thompson (367 yards)\nKansas City Chiefs - Darrel Williams (755 yards) and LeSean McCoy (435 yards)\nLos Angeles Chargers - Austin Ekeler (847 yards) and Melvin Gordon (476 yards)\nLos Angeles Rams - Todd Gurley (857 yards) and Malcolm Brown (415 yards)\nMiami Dolphins - Myles Gaskin (864 yards) and Kalen Ballage (427 yards)\nMinnesota Vikings - Dalvin Cook (1,135 yards) and Alexander Mattison (271 yards)\nNew England Patriots - Sony Michel (844 yards) and Rex Burkhead (333 yards)\nNew Orleans Saints - Alvin Kamara (939 yards) and Latavius Murray (464 yards)\nNew York Giants - Saquon Barkley (1,003 yards) and Wayne Gallman (407 yards)\nNew York Jets - Le’Veon Bell (777 yards) and Frank Gore (444 yards)\nOakland Raiders - Josh Jacobs (1,065 yards) and DeAndré Washington (297 yards)\nPhiladelphia Eagles - Miles Sanders (866 yards) and Boston Scott (344 yards)\nPittsburgh Steelers - James Conner (1,059 yards) and Benny Sapp (244 yards)\nSan Francisco 49ers - Tevin Coleman (834 yards) and Matt Breida (425 yards)\nSeattle Seahawks - Chris Carson (1,230 yards) and Rashaad Penny (419 yards)\nTampa Bay Buccaneers - Peyton Barber (871 yards) and Ronald Jones II (322 yards)\nTennessee Titans - Derrick Henry (1,059 yards) and Dion Lewis (427 yards)\nWashington Redskins - Adrian Peterson (1,042 yards) and Derrius Guice (425 yards)\n\nReceivers:\n\nArizona Cardinals - Larry Fitzger\n\n\nThese results are closer to the wanted outcome, but still contain many flaws. Both sets don’t have the correct year, but I will ignore that for now since it doesn’t matter for the specific goal of making a correct codable hierarchy. The first one by chat GPT correctly lists the desired information in the way I hoped for. Each leader is listed, and is listed under their team. The LLama answer is incorrect because it gives the top two for each stat, and then runs out of room for the receiver section. I like the Chat GPT answer, and will now move on to making this a parsed list.\n\n\n\n\n\nChat GPT prompted: an you give me the code required as to parse this list into sections so it can be put into a markdown python note book. I would like there to be the general list with a heading for each team, and subheadings for rushing leaders and passing leaders.\n\n\n\n # List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    # Add data for the rest of the teams here...\n}\n\n# Generate markdown content\nmarkdown_content = ''\nfor team, leaders in team_data.items():\n    markdown_content += f'## {team}\\n'\n    markdown_content += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n# Print markdown content\nprint(markdown_content)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n\n\n\n\nThis data is obviously flawed and incomplete, but serves as a good starting point for finalizing my intended results. With more prodding, I was able to get Chat GPT 3.5 to give the full code as to create the intended marked down list I wanted for my information.\n\n\n# List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    'Baltimore Ravens': {\n        'Rushing Leader': 'Lamar Jackson',\n        'Receiving Leader': 'Marquise Brown'\n    },\n    'Buffalo Bills': {\n        'Rushing Leader': 'Devin Singletary',\n        'Receiving Leader': 'Stefon Diggs'\n    },\n    'Carolina Panthers': {\n        'Rushing Leader': 'Mike Davis',\n        'Receiving Leader': 'Robby Anderson'\n    },\n    'Chicago Bears': {\n        'Rushing Leader': 'David Montgomery',\n        'Receiving Leader': 'Allen Robinson'\n    },\n    'Cincinnati Bengals': {\n        'Rushing Leader': 'Joe Mixon',\n        'Receiving Leader': 'Tyler Boyd'\n    },\n    'Cleveland Browns': {\n        'Rushing Leader': 'Nick Chubb',\n        'Receiving Leader': 'Jarvis Landry'\n    },\n    'Dallas Cowboys': {\n        'Rushing Leader': 'Ezekiel Elliott',\n        'Receiving Leader': 'Amari Cooper'\n    },\n    'Denver Broncos': {\n        'Rushing Leader': 'Melvin Gordon',\n        'Receiving Leader': 'Jerry Jeudy'\n    },\n    'Detroit Lions': {\n        'Rushing Leader': \"D'Andre Swift\",\n        'Receiving Leader': 'Marvin Jones'\n    },\n    'Green Bay Packers': {\n        'Rushing Leader': 'Aaron Jones',\n        'Receiving Leader': 'Davante Adams'\n    },\n    'Houston Texans': {\n        'Rushing Leader': 'David Johnson',\n        'Receiving Leader': 'Brandin Cooks'\n    },\n    'Indianapolis Colts': {\n        'Rushing Leader': 'Jonathan Taylor',\n        'Receiving Leader': 'T.Y. Hilton'\n    },\n    'Jacksonville Jaguars': {\n        'Rushing Leader': 'James Robinson',\n        'Receiving Leader': 'DJ Chark'\n    },\n    'Kansas City Chiefs': {\n        'Rushing Leader': 'Clyde Edwards-Helaire',\n        'Receiving Leader': 'Travis Kelce'\n    },\n    'Las Vegas Raiders': {\n        'Rushing Leader': 'Josh Jacobs',\n        'Receiving Leader': 'Darren Waller'\n    },\n    'Los Angeles Chargers': {\n        'Rushing Leader': 'Joshua Kelley',\n        'Receiving Leader': 'Keenan Allen'\n    },\n    'Los Angeles Rams': {\n        'Rushing Leader': 'Darrell Henderson',\n        'Receiving Leader': 'Cooper Kupp'\n    },\n    'Miami Dolphins': {\n        'Rushing Leader': 'Myles Gaskin',\n        'Receiving Leader': 'DeVante Parker'\n    },\n    'Minnesota Vikings': {\n        'Rushing Leader': 'Dalvin Cook',\n        'Receiving Leader': 'Justin Jefferson'\n    },\n    'New England Patriots': {\n        'Rushing Leader': 'Damien Harris',\n        'Receiving Leader': 'Jakobi Meyers'\n    },\n    'New Orleans Saints': {\n        'Rushing Leader': 'Alvin Kamara',\n        'Receiving Leader': 'Alvin Kamara'\n    },\n    'New York Giants': {\n        'Rushing Leader': 'Wayne Gallman',\n        'Receiving Leader': 'Darius Slayton'\n    },\n    'New York Jets': {\n        'Rushing Leader': 'Frank Gore',\n        'Receiving Leader': 'Jamison Crowder'\n    },\n    'Philadelphia Eagles': {\n        'Rushing Leader': 'Miles Sanders',\n        'Receiving Leader': 'Travis Fulgham'\n    },\n    'Pittsburgh Steelers': {\n        'Rushing Leader': 'James Conner',\n        'Receiving Leader': 'Diontae Johnson'\n    },\n    'San Francisco 49ers': {\n        'Rushing Leader': 'Raheem Mostert',\n        'Receiving Leader': 'Brandon Aiyuk'\n    },\n    'Seattle Seahawks': {\n        'Rushing Leader': 'Chris Carson',\n        'Receiving Leader': 'DK Metcalf'\n    },\n    'Tampa Bay Buccaneers': {\n        'Rushing Leader': 'Ronald Jones II',\n        'Receiving Leader': 'Mike Evans'\n    },\n    'Tennessee Titans': {\n        'Rushing Leader': 'Derrick Henry',\n        'Receiving Leader': 'Corey Davis'\n    },\n    'Washington Football Team': { \n        'Rushing Leader': 'Antonio Gibson',\n        'Receiving Leader': 'Terry McLaurin'\n    },\n}\n\nmarkdown_content1 = ''\nfor team, leaders in team_data.items():\n    markdown_content1 += f'## {team}\\n'\n    markdown_content1 += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content1 += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n\nprint(markdown_content1)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n## Baltimore Ravens\n### Rushing Leader: Lamar Jackson\n### Receiving Leader: Marquise Brown\n\n## Buffalo Bills\n### Rushing Leader: Devin Singletary\n### Receiving Leader: Stefon Diggs\n\n## Carolina Panthers\n### Rushing Leader: Mike Davis\n### Receiving Leader: Robby Anderson\n\n## Chicago Bears\n### Rushing Leader: David Montgomery\n### Receiving Leader: Allen Robinson\n\n## Cincinnati Bengals\n### Rushing Leader: Joe Mixon\n### Receiving Leader: Tyler Boyd\n\n## Cleveland Browns\n### Rushing Leader: Nick Chubb\n### Receiving Leader: Jarvis Landry\n\n## Dallas Cowboys\n### Rushing Leader: Ezekiel Elliott\n### Receiving Leader: Amari Cooper\n\n## Denver Broncos\n### Rushing Leader: Melvin Gordon\n### Receiving Leader: Jerry Jeudy\n\n## Detroit Lions\n### Rushing Leader: D'Andre Swift\n### Receiving Leader: Marvin Jones\n\n## Green Bay Packers\n### Rushing Leader: Aaron Jones\n### Receiving Leader: Davante Adams\n\n## Houston Texans\n### Rushing Leader: David Johnson\n### Receiving Leader: Brandin Cooks\n\n## Indianapolis Colts\n### Rushing Leader: Jonathan Taylor\n### Receiving Leader: T.Y. Hilton\n\n## Jacksonville Jaguars\n### Rushing Leader: James Robinson\n### Receiving Leader: DJ Chark\n\n## Kansas City Chiefs\n### Rushing Leader: Clyde Edwards-Helaire\n### Receiving Leader: Travis Kelce\n\n## Las Vegas Raiders\n### Rushing Leader: Josh Jacobs\n### Receiving Leader: Darren Waller\n\n## Los Angeles Chargers\n### Rushing Leader: Joshua Kelley\n### Receiving Leader: Keenan Allen\n\n## Los Angeles Rams\n### Rushing Leader: Darrell Henderson\n### Receiving Leader: Cooper Kupp\n\n## Miami Dolphins\n### Rushing Leader: Myles Gaskin\n### Receiving Leader: DeVante Parker\n\n## Minnesota Vikings\n### Rushing Leader: Dalvin Cook\n### Receiving Leader: Justin Jefferson\n\n## New England Patriots\n### Rushing Leader: Damien Harris\n### Receiving Leader: Jakobi Meyers\n\n## New Orleans Saints\n### Rushing Leader: Alvin Kamara\n### Receiving Leader: Alvin Kamara\n\n## New York Giants\n### Rushing Leader: Wayne Gallman\n### Receiving Leader: Darius Slayton\n\n## New York Jets\n### Rushing Leader: Frank Gore\n### Receiving Leader: Jamison Crowder\n\n## Philadelphia Eagles\n### Rushing Leader: Miles Sanders\n### Receiving Leader: Travis Fulgham\n\n## Pittsburgh Steelers\n### Rushing Leader: James Conner\n### Receiving Leader: Diontae Johnson\n\n## San Francisco 49ers\n### Rushing Leader: Raheem Mostert\n### Receiving Leader: Brandon Aiyuk\n\n## Seattle Seahawks\n### Rushing Leader: Chris Carson\n### Receiving Leader: DK Metcalf\n\n## Tampa Bay Buccaneers\n### Rushing Leader: Ronald Jones II\n### Receiving Leader: Mike Evans\n\n## Tennessee Titans\n### Rushing Leader: Derrick Henry\n### Receiving Leader: Corey Davis\n\n## Washington Football Team\n### Rushing Leader: Antonio Gibson\n### Receiving Leader: Terry McLaurin"
+    "text": "First attempt: You wouldn’t steal a car ad from the 90s-00s used to fight against piracy. This revamped towards you wouldn’t train an A.I. model (shown below). Can I get an A.I. to show this exact sticker? GenCraft\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You\n\nSecond attempt: Deep-AI\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nThird Attempt: CHATGPT 4 (premium)\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nMy conclusion from this has been that A.I. image creation has a lot farther to go if it truly is this omnipotent creation tool. My ask, in general, was quite simple. I tested three different software of three different capabilites, and it turns out none of them can create the image I wanted. This could because of the niche question that was posed, or the difficult key words in the prompt. Mention A.I. in my wanted sentence could have made problems, and so could have asking for a popular image to be recreated in the first place."
   },
   {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#success",
-    "href": "posts/Feb12Post/GeneratingLists.html#success",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Success!",
-    "text": "Success!\n\nThe A.I. Officially was able to parse out a list, create it’s markdown code, and make it into a name list on all its own. The finally product is shown below."
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#arizona-cardinals",
-    "href": "posts/Feb12Post/GeneratingLists.html#arizona-cardinals",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Arizona Cardinals",
-    "text": "Arizona Cardinals\n\nRushing Leader: Kenyan Drake\n\n\nReceiving Leader: DeAndre Hopkins"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#atlanta-falcons",
-    "href": "posts/Feb12Post/GeneratingLists.html#atlanta-falcons",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Atlanta Falcons",
-    "text": "Atlanta Falcons\n\nRushing Leader: Todd Gurley\n\n\nReceiving Leader: Calvin Ridley"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#baltimore-ravens",
-    "href": "posts/Feb12Post/GeneratingLists.html#baltimore-ravens",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Baltimore Ravens",
-    "text": "Baltimore Ravens\n\nRushing Leader: Lamar Jackson\n\n\nReceiving Leader: Marquise Brown"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#buffalo-bills",
-    "href": "posts/Feb12Post/GeneratingLists.html#buffalo-bills",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Buffalo Bills",
-    "text": "Buffalo Bills\n\nRushing Leader: Devin Singletary\n\n\nReceiving Leader: Stefon Diggs"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#carolina-panthers",
-    "href": "posts/Feb12Post/GeneratingLists.html#carolina-panthers",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Carolina Panthers",
-    "text": "Carolina Panthers\n\nRushing Leader: Mike Davis\n\n\nReceiving Leader: Robby Anderson"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#chicago-bears",
-    "href": "posts/Feb12Post/GeneratingLists.html#chicago-bears",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Chicago Bears",
-    "text": "Chicago Bears\n\nRushing Leader: David Montgomery\n\n\nReceiving Leader: Allen Robinson"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#cincinnati-bengals",
-    "href": "posts/Feb12Post/GeneratingLists.html#cincinnati-bengals",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Cincinnati Bengals",
-    "text": "Cincinnati Bengals\n\nRushing Leader: Joe Mixon\n\n\nReceiving Leader: Tyler Boyd"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#cleveland-browns",
-    "href": "posts/Feb12Post/GeneratingLists.html#cleveland-browns",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Cleveland Browns",
-    "text": "Cleveland Browns\n\nRushing Leader: Nick Chubb\n\n\nReceiving Leader: Jarvis Landry"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#dallas-cowboys",
-    "href": "posts/Feb12Post/GeneratingLists.html#dallas-cowboys",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Dallas Cowboys",
-    "text": "Dallas Cowboys\n\nRushing Leader: Ezekiel Elliott\n\n\nReceiving Leader: Amari Cooper"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#denver-broncos",
-    "href": "posts/Feb12Post/GeneratingLists.html#denver-broncos",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Denver Broncos",
-    "text": "Denver Broncos\n\nRushing Leader: Melvin Gordon\n\n\nReceiving Leader: Jerry Jeudy"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#detroit-lions",
-    "href": "posts/Feb12Post/GeneratingLists.html#detroit-lions",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Detroit Lions",
-    "text": "Detroit Lions\n\nRushing Leader: D’Andre Swift\n\n\nReceiving Leader: Marvin Jones"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#green-bay-packers",
-    "href": "posts/Feb12Post/GeneratingLists.html#green-bay-packers",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Green Bay Packers",
-    "text": "Green Bay Packers\n\nRushing Leader: Aaron Jones\n\n\nReceiving Leader: Davante Adams"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#houston-texans",
-    "href": "posts/Feb12Post/GeneratingLists.html#houston-texans",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Houston Texans",
-    "text": "Houston Texans\n\nRushing Leader: David Johnson\n\n\nReceiving Leader: Brandin Cooks"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#indianapolis-colts",
-    "href": "posts/Feb12Post/GeneratingLists.html#indianapolis-colts",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Indianapolis Colts",
-    "text": "Indianapolis Colts\n\nRushing Leader: Jonathan Taylor\n\n\nReceiving Leader: T.Y. Hilton"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#jacksonville-jaguars",
-    "href": "posts/Feb12Post/GeneratingLists.html#jacksonville-jaguars",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Jacksonville Jaguars",
-    "text": "Jacksonville Jaguars\n\nRushing Leader: James Robinson\n\n\nReceiving Leader: DJ Chark"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#kansas-city-chiefs",
-    "href": "posts/Feb12Post/GeneratingLists.html#kansas-city-chiefs",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Kansas City Chiefs",
-    "text": "Kansas City Chiefs\n\nRushing Leader: Clyde Edwards-Helaire\n\n\nReceiving Leader: Travis Kelce"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#las-vegas-raiders",
-    "href": "posts/Feb12Post/GeneratingLists.html#las-vegas-raiders",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Las Vegas Raiders",
-    "text": "Las Vegas Raiders\n\nRushing Leader: Josh Jacobs\n\n\nReceiving Leader: Darren Waller"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#los-angeles-chargers",
-    "href": "posts/Feb12Post/GeneratingLists.html#los-angeles-chargers",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Los Angeles Chargers",
-    "text": "Los Angeles Chargers\n\nRushing Leader: Joshua Kelley\n\n\nReceiving Leader: Keenan Allen"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#los-angeles-rams",
-    "href": "posts/Feb12Post/GeneratingLists.html#los-angeles-rams",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Los Angeles Rams",
-    "text": "Los Angeles Rams\n\nRushing Leader: Darrell Henderson\n\n\nReceiving Leader: Cooper Kupp"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#miami-dolphins",
-    "href": "posts/Feb12Post/GeneratingLists.html#miami-dolphins",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Miami Dolphins",
-    "text": "Miami Dolphins\n\nRushing Leader: Myles Gaskin\n\n\nReceiving Leader: DeVante Parker"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#minnesota-vikings",
-    "href": "posts/Feb12Post/GeneratingLists.html#minnesota-vikings",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Minnesota Vikings",
-    "text": "Minnesota Vikings\n\nRushing Leader: Dalvin Cook\n\n\nReceiving Leader: Justin Jefferson"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#new-england-patriots",
-    "href": "posts/Feb12Post/GeneratingLists.html#new-england-patriots",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "New England Patriots",
-    "text": "New England Patriots\n\nRushing Leader: Damien Harris\n\n\nReceiving Leader: Jakobi Meyers"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#new-orleans-saints",
-    "href": "posts/Feb12Post/GeneratingLists.html#new-orleans-saints",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "New Orleans Saints",
-    "text": "New Orleans Saints\n\nRushing Leader: Alvin Kamara\n\n\nReceiving Leader: Alvin Kamara"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#new-york-giants",
-    "href": "posts/Feb12Post/GeneratingLists.html#new-york-giants",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "New York Giants",
-    "text": "New York Giants\n\nRushing Leader: Wayne Gallman\n\n\nReceiving Leader: Darius Slayton"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#new-york-jets",
-    "href": "posts/Feb12Post/GeneratingLists.html#new-york-jets",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "New York Jets",
-    "text": "New York Jets\n\nRushing Leader: Frank Gore\n\n\nReceiving Leader: Jamison Crowder"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#philadelphia-eagles",
-    "href": "posts/Feb12Post/GeneratingLists.html#philadelphia-eagles",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Philadelphia Eagles",
-    "text": "Philadelphia Eagles\n\nRushing Leader: Miles Sanders\n\n\nReceiving Leader: Travis Fulgham"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#pittsburgh-steelers",
-    "href": "posts/Feb12Post/GeneratingLists.html#pittsburgh-steelers",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Pittsburgh Steelers",
-    "text": "Pittsburgh Steelers\n\nRushing Leader: James Conner\n\n\nReceiving Leader: Diontae Johnson"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#san-francisco-49ers",
-    "href": "posts/Feb12Post/GeneratingLists.html#san-francisco-49ers",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "San Francisco 49ers",
-    "text": "San Francisco 49ers\n\nRushing Leader: Raheem Mostert\n\n\nReceiving Leader: Brandon Aiyuk"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#seattle-seahawks",
-    "href": "posts/Feb12Post/GeneratingLists.html#seattle-seahawks",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Seattle Seahawks",
-    "text": "Seattle Seahawks\n\nRushing Leader: Chris Carson\n\n\nReceiving Leader: DK Metcalf"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#tampa-bay-buccaneers",
-    "href": "posts/Feb12Post/GeneratingLists.html#tampa-bay-buccaneers",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Tampa Bay Buccaneers",
-    "text": "Tampa Bay Buccaneers\n\nRushing Leader: Ronald Jones II\n\n\nReceiving Leader: Mike Evans"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#tennessee-titans",
-    "href": "posts/Feb12Post/GeneratingLists.html#tennessee-titans",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Tennessee Titans",
-    "text": "Tennessee Titans\n\nRushing Leader: Derrick Henry\n\n\nReceiving Leader: Corey Davis"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#washington-football-team",
-    "href": "posts/Feb12Post/GeneratingLists.html#washington-football-team",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Washington Football Team",
-    "text": "Washington Football Team\n\nRushing Leader: Antonio Gibson\n\n\nReceiving Leader: Terry McLaurin"
-  },
-  {
-    "objectID": "posts/Feb12Post/GeneratingLists.html#last-changes",
-    "href": "posts/Feb12Post/GeneratingLists.html#last-changes",
-    "title": "Generating Lists, Week 5 Post 1",
-    "section": "Last Changes !",
-    "text": "Last Changes !\n\nI want the list prettier, so I prompt the A.I. to change towards different formating.\n\n\nThis last change crashed the A.I. ! It was unable to change the formatting from headings and subheadings to a more readable format. This will be the last bit of work I do on this particular project"
+    "objectID": "posts/004_Feb17thPost/index.html#you-wouldnt-train-an-a.i-model",
+    "href": "posts/004_Feb17thPost/index.html#you-wouldnt-train-an-a.i-model",
+    "title": "Can I recreat an Image with A.I.",
+    "section": "",
+    "text": "First attempt: You wouldn’t steal a car ad from the 90s-00s used to fight against piracy. This revamped towards you wouldn’t train an A.I. model (shown below). Can I get an A.I. to show this exact sticker? GenCraft\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You\n\nSecond attempt: Deep-AI\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nThird Attempt: CHATGPT 4 (premium)\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nMy conclusion from this has been that A.I. image creation has a lot farther to go if it truly is this omnipotent creation tool. My ask, in general, was quite simple. I tested three different software of three different capabilites, and it turns out none of them can create the image I wanted. This could because of the niche question that was posed, or the difficult key words in the prompt. Mention A.I. in my wanted sentence could have made problems, and so could have asking for a popular image to be recreated in the first place."
   },
   {
     "objectID": "index.html",
@@ -266,24 +35,255 @@
     "text": "About this blog…"
   },
   {
-    "objectID": "posts/Fed17thPost/index.html",
-    "href": "posts/Fed17thPost/index.html",
-    "title": "Can I recreat an Image with A.I.",
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html",
+    "href": "posts/002_Feb12Post/GeneratingLists.html",
+    "title": "Generating Lists, Week 5 Post 1",
     "section": "",
-    "text": "First attempt: You wouldn’t steal a car ad from the 90s-00s used to fight against piracy. This revamped towards you wouldn’t train an A.I. model (shown below). Can I get an A.I. to show this exact sticker? GenCraft\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You\n\nSecond attempt: Deep-AI\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nThird Attempt: CHATGPT 4 (premium)\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nMy conclusion from this has been that A.I. image creation has a lot farther to go if it truly is this omnipotent creation tool. My ask, in general, was quite simple. I tested three different software of three different capabilites, and it turns out none of them can create the image I wanted. This could because of the niche question that was posed, or the difficult key words in the prompt. Mention A.I. in my wanted sentence could have made problems, and so could have asking for a popular image to be recreated in the first place."
+    "text": "I want to get a succinct list of the yards leaders per team for the NFL on the ground and in the air. I read the assigned chapter and want to create a hierarchical list that can be placed into a python book. This is my original prompt for Chat llama-2-13b-chat and Chat GPT 3.5.\n\n\nPlease give me a list of the team leaders in yards on the ground and in the air for every NFL team in 2020\n\n\n\n\nSure, here is a list of the top team leaders in yards on the ground and in the air for every NFL team in the 2020 season, based on the official NFL statistics:\n\nGround Leaders:\n\nChristian McCaffrey, Carolina Panthers - 1,387 yards\nDerrick Henry, Tennessee Titans - 1,059 yards\nEzekiel Elliott, Dallas Cowboys - 979 yards\nAlvin Kamara, New Orleans Saints - 939 yards\nNick Chubb, Cleveland Browns - 865 yards\n\nAir Leaders:\n\nTom Brady, Tampa Bay Buccaneers - 4,633 yards\nDrew Brees, New Orleans Saints - 4,384 yards\nAaron Rodgers, Green Bay Packers - 4,291 yards\nMatt Ryan, Atlanta Falcons - 4,271 yards\nRussell Wilson, Seattle Seahawks - 4,255 yards\n\nIt’s worth noting that these statistics are based on the regular season only and do not include postseason play. Also, the rankings are based on the team leaders in each category, not the overall leaders in the NFL.\n\nThese results fail to give me the wanted outcome. These are not the team leaders, but the overall leaders. This result is from Llama while Chat GPT claimed to be incapable of the request. I will change my prompt to try and reflect better results. “Please give me a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season. Specifically list the two players per team, and which team they played for”\n\n\n\n\n\nChat GPT 3.5 Here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season:\n\n\nArizona Cardinals\n\nRushing Leader: Kenyan Drake\nReceiving Leader: DeAndre Hopkins\n\nAtlanta Falcons\n\nRushing Leader: Todd Gurley\nReceiving Leader: Calvin Ridley\n\nBaltimore Ravens\n\nRushing Leader: Lamar Jackson\nReceiving Leader: Marquise Brown\n\nBuffalo Bills\n\nRushing Leader: Devin Singletary\nReceiving Leader: Stefon Diggs\n\nCarolina Panthers\n\nRushing Leader: Mike Davis\nReceiving Leader: Robby Anderson\n\nChicago Bears\n\nRushing Leader: David Montgomery\nReceiving Leader: Allen Robinson\n\nCincinnati Bengals\n\nRushing Leader: Joe Mixon\nReceiving Leader: Tyler Boyd\n\nCleveland Browns\n\nRushing Leader: Nick Chubb\nReceiving Leader: Jarvis Landry\n\nDallas Cowboys\n\nRushing Leader: Ezekiel Elliott\nReceiving Leader: Amari Cooper\n\nDenver Broncos\n\nRushing Leader: Melvin Gordon\nReceiving Leader: Jerry Jeudy\n\nDetroit Lions\n\nRushing Leader: D’Andre Swift\nReceiving Leader: Marvin Jones\n\nGreen Bay Packers\n\nRushing Leader: Aaron Jones\nReceiving Leader: Davante Adams\n\nHouston Texans\n\nRushing Leader: David Johnson\nReceiving Leader: Brandin Cooks\n\nIndianapolis Colts\n\nRushing Leader: Jonathan Taylor\nReceiving Leader: T.Y. Hilton\n\nJacksonville Jaguars\n\nRushing Leader: James Robinson\nReceiving Leader: DJ Chark\n\nKansas City Chiefs\n\nRushing Leader: Clyde Edwards-Helaire\nReceiving Leader: Travis Kelce\n\nLas Vegas Raiders\n\nRushing Leader: Josh Jacobs\nReceiving Leader: Darren Waller\n\nLos Angeles Chargers\n\nRushing Leader: Joshua Kelley\nReceiving Leader: Keenan Allen\n\nLos Angeles Rams\n\nRushing Leader: Darrell Henderson\nReceiving Leader: Cooper Kupp\n\nMiami Dolphins\n\nRushing Leader: Myles Gaskin\nReceiving Leader: DeVante Parker\n\nMinnesota Vikings\n\nRushing Leader: Dalvin Cook\nReceiving Leader: Justin Jefferson\n\nNew England Patriots\n\nRushing Leader: Damien Harris\nReceiving Leader: Jakobi Meyers\n\nNew Orleans Saints\n\nRushing Leader: Alvin Kamara\nReceiving Leader: Alvin Kamara\n\nNew York Giants\n\nRushing Leader: Wayne Gallman\nReceiving Leader: Darius Slayton\n\nNew York Jets\n\nRushing Leader: Frank Gore\nReceiving Leader: Jamison Crowder\n\nPhiladelphia Eagles\n\nRushing Leader: Miles Sanders\nReceiving Leader: Travis Fulgham\n\nPittsburgh Steelers\n\nRushing Leader: James Conner\nReceiving Leader: Diontae Johnson\n\nSan Francisco 49ers\n\nRushing Leader: Raheem Mostert\nReceiving Leader: Brandon Aiyuk\n\nSeattle Seahawks\n\nRushing Leader: Chris Carson\nReceiving Leader: DK Metcalf\n\nTampa Bay Buccaneers\n\nRushing Leader: Ronald Jones II\nReceiving Leader: Mike Evans\n\nTennessee Titans\n\nRushing Leader: Derrick Henry\nReceiving Leader: Corey Davis\n\nWashington Football Team\n\nRushing Leader: Antonio Gibson\nReceiving Leader: Terry McLaurin\n\n\nI hope this list is helpful to you. Let me know if you need any more information. * Llama Sure, here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season, based on the official NFL statistics:\nRushers:\n\nArizona Cardinals - Kenyan Drake (1059 yards) and David Johnson (812 yards)\nAtlanta Falcons - Devonta Freeman (833 yards) and Tevin Coleman (725 yards)\nBaltimore Ravens - Mark Ingram (1,018 yards) and Gus Edwards (723 yards)\nBuffalo Bills - Devin Singletary (977 yards) and Frank Gore (721 yards)\nCarolina Panthers - Christian McCaffrey (1,387 yards) and Cameron Artis-Payne (515 yards)\nChicago Bears - David Montgomery (1,059 yards) and Tarik Cohen (444 yards)\nCincinnati Bengals - Joe Mixon (1,137 yards) and Giovani Bernard (432 yards)\nCleveland Browns - Nick Chubb (865 yards) and Kareem Hunt (467 yards)\nDallas Cowboys - Ezekiel Elliott (979 yards) and Tony Pollard (275 yards)\nDenver Broncos - Melvin Gordon (841 yards) and Phillip Lindsay (704 yards)\nDetroit Lions - Kerryon Johnson (842 yards) and Ty Johnson (445 yards)\nGreen Bay Packers - Aaron Jones (1,084 yards) and Jamaal Williams (464 yards)\nHouston Texans - Carlos Hyde (1,070 yards) and Duke Johnson (427 yards)\nIndianapolis Colts - Jonathan Williams (833 yards) and Nyheim Hines (444 yards)\nJacksonville Jaguars - Leonard Fournette (815 yards) and Chris Thompson (367 yards)\nKansas City Chiefs - Darrel Williams (755 yards) and LeSean McCoy (435 yards)\nLos Angeles Chargers - Austin Ekeler (847 yards) and Melvin Gordon (476 yards)\nLos Angeles Rams - Todd Gurley (857 yards) and Malcolm Brown (415 yards)\nMiami Dolphins - Myles Gaskin (864 yards) and Kalen Ballage (427 yards)\nMinnesota Vikings - Dalvin Cook (1,135 yards) and Alexander Mattison (271 yards)\nNew England Patriots - Sony Michel (844 yards) and Rex Burkhead (333 yards)\nNew Orleans Saints - Alvin Kamara (939 yards) and Latavius Murray (464 yards)\nNew York Giants - Saquon Barkley (1,003 yards) and Wayne Gallman (407 yards)\nNew York Jets - Le’Veon Bell (777 yards) and Frank Gore (444 yards)\nOakland Raiders - Josh Jacobs (1,065 yards) and DeAndré Washington (297 yards)\nPhiladelphia Eagles - Miles Sanders (866 yards) and Boston Scott (344 yards)\nPittsburgh Steelers - James Conner (1,059 yards) and Benny Sapp (244 yards)\nSan Francisco 49ers - Tevin Coleman (834 yards) and Matt Breida (425 yards)\nSeattle Seahawks - Chris Carson (1,230 yards) and Rashaad Penny (419 yards)\nTampa Bay Buccaneers - Peyton Barber (871 yards) and Ronald Jones II (322 yards)\nTennessee Titans - Derrick Henry (1,059 yards) and Dion Lewis (427 yards)\nWashington Redskins - Adrian Peterson (1,042 yards) and Derrius Guice (425 yards)\n\nReceivers:\n\nArizona Cardinals - Larry Fitzger\n\n\nThese results are closer to the wanted outcome, but still contain many flaws. Both sets don’t have the correct year, but I will ignore that for now since it doesn’t matter for the specific goal of making a correct codable hierarchy. The first one by chat GPT correctly lists the desired information in the way I hoped for. Each leader is listed, and is listed under their team. The LLama answer is incorrect because it gives the top two for each stat, and then runs out of room for the receiver section. I like the Chat GPT answer, and will now move on to making this a parsed list.\n\n\n\n\n\nChat GPT prompted: an you give me the code required as to parse this list into sections so it can be put into a markdown python note book. I would like there to be the general list with a heading for each team, and subheadings for rushing leaders and passing leaders.\n\n\n\n # List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    # Add data for the rest of the teams here...\n}\n\n# Generate markdown content\nmarkdown_content = ''\nfor team, leaders in team_data.items():\n    markdown_content += f'## {team}\\n'\n    markdown_content += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n# Print markdown content\nprint(markdown_content)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n\n\n\n\nThis data is obviously flawed and incomplete, but serves as a good starting point for finalizing my intended results. With more prodding, I was able to get Chat GPT 3.5 to give the full code as to create the intended marked down list I wanted for my information.\n\n\n# List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    'Baltimore Ravens': {\n        'Rushing Leader': 'Lamar Jackson',\n        'Receiving Leader': 'Marquise Brown'\n    },\n    'Buffalo Bills': {\n        'Rushing Leader': 'Devin Singletary',\n        'Receiving Leader': 'Stefon Diggs'\n    },\n    'Carolina Panthers': {\n        'Rushing Leader': 'Mike Davis',\n        'Receiving Leader': 'Robby Anderson'\n    },\n    'Chicago Bears': {\n        'Rushing Leader': 'David Montgomery',\n        'Receiving Leader': 'Allen Robinson'\n    },\n    'Cincinnati Bengals': {\n        'Rushing Leader': 'Joe Mixon',\n        'Receiving Leader': 'Tyler Boyd'\n    },\n    'Cleveland Browns': {\n        'Rushing Leader': 'Nick Chubb',\n        'Receiving Leader': 'Jarvis Landry'\n    },\n    'Dallas Cowboys': {\n        'Rushing Leader': 'Ezekiel Elliott',\n        'Receiving Leader': 'Amari Cooper'\n    },\n    'Denver Broncos': {\n        'Rushing Leader': 'Melvin Gordon',\n        'Receiving Leader': 'Jerry Jeudy'\n    },\n    'Detroit Lions': {\n        'Rushing Leader': \"D'Andre Swift\",\n        'Receiving Leader': 'Marvin Jones'\n    },\n    'Green Bay Packers': {\n        'Rushing Leader': 'Aaron Jones',\n        'Receiving Leader': 'Davante Adams'\n    },\n    'Houston Texans': {\n        'Rushing Leader': 'David Johnson',\n        'Receiving Leader': 'Brandin Cooks'\n    },\n    'Indianapolis Colts': {\n        'Rushing Leader': 'Jonathan Taylor',\n        'Receiving Leader': 'T.Y. Hilton'\n    },\n    'Jacksonville Jaguars': {\n        'Rushing Leader': 'James Robinson',\n        'Receiving Leader': 'DJ Chark'\n    },\n    'Kansas City Chiefs': {\n        'Rushing Leader': 'Clyde Edwards-Helaire',\n        'Receiving Leader': 'Travis Kelce'\n    },\n    'Las Vegas Raiders': {\n        'Rushing Leader': 'Josh Jacobs',\n        'Receiving Leader': 'Darren Waller'\n    },\n    'Los Angeles Chargers': {\n        'Rushing Leader': 'Joshua Kelley',\n        'Receiving Leader': 'Keenan Allen'\n    },\n    'Los Angeles Rams': {\n        'Rushing Leader': 'Darrell Henderson',\n        'Receiving Leader': 'Cooper Kupp'\n    },\n    'Miami Dolphins': {\n        'Rushing Leader': 'Myles Gaskin',\n        'Receiving Leader': 'DeVante Parker'\n    },\n    'Minnesota Vikings': {\n        'Rushing Leader': 'Dalvin Cook',\n        'Receiving Leader': 'Justin Jefferson'\n    },\n    'New England Patriots': {\n        'Rushing Leader': 'Damien Harris',\n        'Receiving Leader': 'Jakobi Meyers'\n    },\n    'New Orleans Saints': {\n        'Rushing Leader': 'Alvin Kamara',\n        'Receiving Leader': 'Alvin Kamara'\n    },\n    'New York Giants': {\n        'Rushing Leader': 'Wayne Gallman',\n        'Receiving Leader': 'Darius Slayton'\n    },\n    'New York Jets': {\n        'Rushing Leader': 'Frank Gore',\n        'Receiving Leader': 'Jamison Crowder'\n    },\n    'Philadelphia Eagles': {\n        'Rushing Leader': 'Miles Sanders',\n        'Receiving Leader': 'Travis Fulgham'\n    },\n    'Pittsburgh Steelers': {\n        'Rushing Leader': 'James Conner',\n        'Receiving Leader': 'Diontae Johnson'\n    },\n    'San Francisco 49ers': {\n        'Rushing Leader': 'Raheem Mostert',\n        'Receiving Leader': 'Brandon Aiyuk'\n    },\n    'Seattle Seahawks': {\n        'Rushing Leader': 'Chris Carson',\n        'Receiving Leader': 'DK Metcalf'\n    },\n    'Tampa Bay Buccaneers': {\n        'Rushing Leader': 'Ronald Jones II',\n        'Receiving Leader': 'Mike Evans'\n    },\n    'Tennessee Titans': {\n        'Rushing Leader': 'Derrick Henry',\n        'Receiving Leader': 'Corey Davis'\n    },\n    'Washington Football Team': { \n        'Rushing Leader': 'Antonio Gibson',\n        'Receiving Leader': 'Terry McLaurin'\n    },\n}\n\nmarkdown_content1 = ''\nfor team, leaders in team_data.items():\n    markdown_content1 += f'## {team}\\n'\n    markdown_content1 += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content1 += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n\nprint(markdown_content1)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n## Baltimore Ravens\n### Rushing Leader: Lamar Jackson\n### Receiving Leader: Marquise Brown\n\n## Buffalo Bills\n### Rushing Leader: Devin Singletary\n### Receiving Leader: Stefon Diggs\n\n## Carolina Panthers\n### Rushing Leader: Mike Davis\n### Receiving Leader: Robby Anderson\n\n## Chicago Bears\n### Rushing Leader: David Montgomery\n### Receiving Leader: Allen Robinson\n\n## Cincinnati Bengals\n### Rushing Leader: Joe Mixon\n### Receiving Leader: Tyler Boyd\n\n## Cleveland Browns\n### Rushing Leader: Nick Chubb\n### Receiving Leader: Jarvis Landry\n\n## Dallas Cowboys\n### Rushing Leader: Ezekiel Elliott\n### Receiving Leader: Amari Cooper\n\n## Denver Broncos\n### Rushing Leader: Melvin Gordon\n### Receiving Leader: Jerry Jeudy\n\n## Detroit Lions\n### Rushing Leader: D'Andre Swift\n### Receiving Leader: Marvin Jones\n\n## Green Bay Packers\n### Rushing Leader: Aaron Jones\n### Receiving Leader: Davante Adams\n\n## Houston Texans\n### Rushing Leader: David Johnson\n### Receiving Leader: Brandin Cooks\n\n## Indianapolis Colts\n### Rushing Leader: Jonathan Taylor\n### Receiving Leader: T.Y. Hilton\n\n## Jacksonville Jaguars\n### Rushing Leader: James Robinson\n### Receiving Leader: DJ Chark\n\n## Kansas City Chiefs\n### Rushing Leader: Clyde Edwards-Helaire\n### Receiving Leader: Travis Kelce\n\n## Las Vegas Raiders\n### Rushing Leader: Josh Jacobs\n### Receiving Leader: Darren Waller\n\n## Los Angeles Chargers\n### Rushing Leader: Joshua Kelley\n### Receiving Leader: Keenan Allen\n\n## Los Angeles Rams\n### Rushing Leader: Darrell Henderson\n### Receiving Leader: Cooper Kupp\n\n## Miami Dolphins\n### Rushing Leader: Myles Gaskin\n### Receiving Leader: DeVante Parker\n\n## Minnesota Vikings\n### Rushing Leader: Dalvin Cook\n### Receiving Leader: Justin Jefferson\n\n## New England Patriots\n### Rushing Leader: Damien Harris\n### Receiving Leader: Jakobi Meyers\n\n## New Orleans Saints\n### Rushing Leader: Alvin Kamara\n### Receiving Leader: Alvin Kamara\n\n## New York Giants\n### Rushing Leader: Wayne Gallman\n### Receiving Leader: Darius Slayton\n\n## New York Jets\n### Rushing Leader: Frank Gore\n### Receiving Leader: Jamison Crowder\n\n## Philadelphia Eagles\n### Rushing Leader: Miles Sanders\n### Receiving Leader: Travis Fulgham\n\n## Pittsburgh Steelers\n### Rushing Leader: James Conner\n### Receiving Leader: Diontae Johnson\n\n## San Francisco 49ers\n### Rushing Leader: Raheem Mostert\n### Receiving Leader: Brandon Aiyuk\n\n## Seattle Seahawks\n### Rushing Leader: Chris Carson\n### Receiving Leader: DK Metcalf\n\n## Tampa Bay Buccaneers\n### Rushing Leader: Ronald Jones II\n### Receiving Leader: Mike Evans\n\n## Tennessee Titans\n### Rushing Leader: Derrick Henry\n### Receiving Leader: Corey Davis\n\n## Washington Football Team\n### Rushing Leader: Antonio Gibson\n### Receiving Leader: Terry McLaurin"
   },
   {
-    "objectID": "posts/Fed17thPost/index.html#you-wouldnt-train-an-a.i-model",
-    "href": "posts/Fed17thPost/index.html#you-wouldnt-train-an-a.i-model",
-    "title": "Can I recreat an Image with A.I.",
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#prompting-a-better-list",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#prompting-a-better-list",
+    "title": "Generating Lists, Week 5 Post 1",
     "section": "",
-    "text": "First attempt: You wouldn’t steal a car ad from the 90s-00s used to fight against piracy. This revamped towards you wouldn’t train an A.I. model (shown below). Can I get an A.I. to show this exact sticker? GenCraft\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You\n\nSecond attempt: Deep-AI\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nThird Attempt: CHATGPT 4 (premium)\n\nIn the style of old ads that fight against Piracy (You Wouldn’t Steal A Car”, can you create an image that says “You wouldn’t Train An AI Model”\nSpecifically like those old ads, can you use a black backround and white text that flickers a tad. This would play at the end of anti-piracy ads.\nA big part of these ads is that they just exist as text. These is no images in the ad. Just the worlds “You Wouldn’t Train An AI ModeL” In the style of “You Wouldn’t Steal A Car”\n\nMy conclusion from this has been that A.I. image creation has a lot farther to go if it truly is this omnipotent creation tool. My ask, in general, was quite simple. I tested three different software of three different capabilites, and it turns out none of them can create the image I wanted. This could because of the niche question that was posed, or the difficult key words in the prompt. Mention A.I. in my wanted sentence could have made problems, and so could have asking for a popular image to be recreated in the first place."
+    "text": "I want to get a succinct list of the yards leaders per team for the NFL on the ground and in the air. I read the assigned chapter and want to create a hierarchical list that can be placed into a python book. This is my original prompt for Chat llama-2-13b-chat and Chat GPT 3.5.\n\n\nPlease give me a list of the team leaders in yards on the ground and in the air for every NFL team in 2020\n\n\n\n\nSure, here is a list of the top team leaders in yards on the ground and in the air for every NFL team in the 2020 season, based on the official NFL statistics:\n\nGround Leaders:\n\nChristian McCaffrey, Carolina Panthers - 1,387 yards\nDerrick Henry, Tennessee Titans - 1,059 yards\nEzekiel Elliott, Dallas Cowboys - 979 yards\nAlvin Kamara, New Orleans Saints - 939 yards\nNick Chubb, Cleveland Browns - 865 yards\n\nAir Leaders:\n\nTom Brady, Tampa Bay Buccaneers - 4,633 yards\nDrew Brees, New Orleans Saints - 4,384 yards\nAaron Rodgers, Green Bay Packers - 4,291 yards\nMatt Ryan, Atlanta Falcons - 4,271 yards\nRussell Wilson, Seattle Seahawks - 4,255 yards\n\nIt’s worth noting that these statistics are based on the regular season only and do not include postseason play. Also, the rankings are based on the team leaders in each category, not the overall leaders in the NFL.\n\nThese results fail to give me the wanted outcome. These are not the team leaders, but the overall leaders. This result is from Llama while Chat GPT claimed to be incapable of the request. I will change my prompt to try and reflect better results. “Please give me a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season. Specifically list the two players per team, and which team they played for”\n\n\n\n\n\nChat GPT 3.5 Here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season:\n\n\nArizona Cardinals\n\nRushing Leader: Kenyan Drake\nReceiving Leader: DeAndre Hopkins\n\nAtlanta Falcons\n\nRushing Leader: Todd Gurley\nReceiving Leader: Calvin Ridley\n\nBaltimore Ravens\n\nRushing Leader: Lamar Jackson\nReceiving Leader: Marquise Brown\n\nBuffalo Bills\n\nRushing Leader: Devin Singletary\nReceiving Leader: Stefon Diggs\n\nCarolina Panthers\n\nRushing Leader: Mike Davis\nReceiving Leader: Robby Anderson\n\nChicago Bears\n\nRushing Leader: David Montgomery\nReceiving Leader: Allen Robinson\n\nCincinnati Bengals\n\nRushing Leader: Joe Mixon\nReceiving Leader: Tyler Boyd\n\nCleveland Browns\n\nRushing Leader: Nick Chubb\nReceiving Leader: Jarvis Landry\n\nDallas Cowboys\n\nRushing Leader: Ezekiel Elliott\nReceiving Leader: Amari Cooper\n\nDenver Broncos\n\nRushing Leader: Melvin Gordon\nReceiving Leader: Jerry Jeudy\n\nDetroit Lions\n\nRushing Leader: D’Andre Swift\nReceiving Leader: Marvin Jones\n\nGreen Bay Packers\n\nRushing Leader: Aaron Jones\nReceiving Leader: Davante Adams\n\nHouston Texans\n\nRushing Leader: David Johnson\nReceiving Leader: Brandin Cooks\n\nIndianapolis Colts\n\nRushing Leader: Jonathan Taylor\nReceiving Leader: T.Y. Hilton\n\nJacksonville Jaguars\n\nRushing Leader: James Robinson\nReceiving Leader: DJ Chark\n\nKansas City Chiefs\n\nRushing Leader: Clyde Edwards-Helaire\nReceiving Leader: Travis Kelce\n\nLas Vegas Raiders\n\nRushing Leader: Josh Jacobs\nReceiving Leader: Darren Waller\n\nLos Angeles Chargers\n\nRushing Leader: Joshua Kelley\nReceiving Leader: Keenan Allen\n\nLos Angeles Rams\n\nRushing Leader: Darrell Henderson\nReceiving Leader: Cooper Kupp\n\nMiami Dolphins\n\nRushing Leader: Myles Gaskin\nReceiving Leader: DeVante Parker\n\nMinnesota Vikings\n\nRushing Leader: Dalvin Cook\nReceiving Leader: Justin Jefferson\n\nNew England Patriots\n\nRushing Leader: Damien Harris\nReceiving Leader: Jakobi Meyers\n\nNew Orleans Saints\n\nRushing Leader: Alvin Kamara\nReceiving Leader: Alvin Kamara\n\nNew York Giants\n\nRushing Leader: Wayne Gallman\nReceiving Leader: Darius Slayton\n\nNew York Jets\n\nRushing Leader: Frank Gore\nReceiving Leader: Jamison Crowder\n\nPhiladelphia Eagles\n\nRushing Leader: Miles Sanders\nReceiving Leader: Travis Fulgham\n\nPittsburgh Steelers\n\nRushing Leader: James Conner\nReceiving Leader: Diontae Johnson\n\nSan Francisco 49ers\n\nRushing Leader: Raheem Mostert\nReceiving Leader: Brandon Aiyuk\n\nSeattle Seahawks\n\nRushing Leader: Chris Carson\nReceiving Leader: DK Metcalf\n\nTampa Bay Buccaneers\n\nRushing Leader: Ronald Jones II\nReceiving Leader: Mike Evans\n\nTennessee Titans\n\nRushing Leader: Derrick Henry\nReceiving Leader: Corey Davis\n\nWashington Football Team\n\nRushing Leader: Antonio Gibson\nReceiving Leader: Terry McLaurin\n\n\nI hope this list is helpful to you. Let me know if you need any more information. * Llama Sure, here is a list of each individual NFL team’s leading rusher and receiver for the 2020 NFL season, based on the official NFL statistics:\nRushers:\n\nArizona Cardinals - Kenyan Drake (1059 yards) and David Johnson (812 yards)\nAtlanta Falcons - Devonta Freeman (833 yards) and Tevin Coleman (725 yards)\nBaltimore Ravens - Mark Ingram (1,018 yards) and Gus Edwards (723 yards)\nBuffalo Bills - Devin Singletary (977 yards) and Frank Gore (721 yards)\nCarolina Panthers - Christian McCaffrey (1,387 yards) and Cameron Artis-Payne (515 yards)\nChicago Bears - David Montgomery (1,059 yards) and Tarik Cohen (444 yards)\nCincinnati Bengals - Joe Mixon (1,137 yards) and Giovani Bernard (432 yards)\nCleveland Browns - Nick Chubb (865 yards) and Kareem Hunt (467 yards)\nDallas Cowboys - Ezekiel Elliott (979 yards) and Tony Pollard (275 yards)\nDenver Broncos - Melvin Gordon (841 yards) and Phillip Lindsay (704 yards)\nDetroit Lions - Kerryon Johnson (842 yards) and Ty Johnson (445 yards)\nGreen Bay Packers - Aaron Jones (1,084 yards) and Jamaal Williams (464 yards)\nHouston Texans - Carlos Hyde (1,070 yards) and Duke Johnson (427 yards)\nIndianapolis Colts - Jonathan Williams (833 yards) and Nyheim Hines (444 yards)\nJacksonville Jaguars - Leonard Fournette (815 yards) and Chris Thompson (367 yards)\nKansas City Chiefs - Darrel Williams (755 yards) and LeSean McCoy (435 yards)\nLos Angeles Chargers - Austin Ekeler (847 yards) and Melvin Gordon (476 yards)\nLos Angeles Rams - Todd Gurley (857 yards) and Malcolm Brown (415 yards)\nMiami Dolphins - Myles Gaskin (864 yards) and Kalen Ballage (427 yards)\nMinnesota Vikings - Dalvin Cook (1,135 yards) and Alexander Mattison (271 yards)\nNew England Patriots - Sony Michel (844 yards) and Rex Burkhead (333 yards)\nNew Orleans Saints - Alvin Kamara (939 yards) and Latavius Murray (464 yards)\nNew York Giants - Saquon Barkley (1,003 yards) and Wayne Gallman (407 yards)\nNew York Jets - Le’Veon Bell (777 yards) and Frank Gore (444 yards)\nOakland Raiders - Josh Jacobs (1,065 yards) and DeAndré Washington (297 yards)\nPhiladelphia Eagles - Miles Sanders (866 yards) and Boston Scott (344 yards)\nPittsburgh Steelers - James Conner (1,059 yards) and Benny Sapp (244 yards)\nSan Francisco 49ers - Tevin Coleman (834 yards) and Matt Breida (425 yards)\nSeattle Seahawks - Chris Carson (1,230 yards) and Rashaad Penny (419 yards)\nTampa Bay Buccaneers - Peyton Barber (871 yards) and Ronald Jones II (322 yards)\nTennessee Titans - Derrick Henry (1,059 yards) and Dion Lewis (427 yards)\nWashington Redskins - Adrian Peterson (1,042 yards) and Derrius Guice (425 yards)\n\nReceivers:\n\nArizona Cardinals - Larry Fitzger\n\n\nThese results are closer to the wanted outcome, but still contain many flaws. Both sets don’t have the correct year, but I will ignore that for now since it doesn’t matter for the specific goal of making a correct codable hierarchy. The first one by chat GPT correctly lists the desired information in the way I hoped for. Each leader is listed, and is listed under their team. The LLama answer is incorrect because it gives the top two for each stat, and then runs out of room for the receiver section. I like the Chat GPT answer, and will now move on to making this a parsed list.\n\n\n\n\n\nChat GPT prompted: an you give me the code required as to parse this list into sections so it can be put into a markdown python note book. I would like there to be the general list with a heading for each team, and subheadings for rushing leaders and passing leaders.\n\n\n\n # List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    # Add data for the rest of the teams here...\n}\n\n# Generate markdown content\nmarkdown_content = ''\nfor team, leaders in team_data.items():\n    markdown_content += f'## {team}\\n'\n    markdown_content += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n# Print markdown content\nprint(markdown_content)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n\n\n\n\nThis data is obviously flawed and incomplete, but serves as a good starting point for finalizing my intended results. With more prodding, I was able to get Chat GPT 3.5 to give the full code as to create the intended marked down list I wanted for my information.\n\n\n# List of each individual NFL team's leading rusher and receiver for the 2020 NFL season\nteam_data = {\n    'Arizona Cardinals': {\n        'Rushing Leader': 'Kenyan Drake',\n        'Receiving Leader': 'DeAndre Hopkins'\n    },\n    'Atlanta Falcons': {\n        'Rushing Leader': 'Todd Gurley',\n        'Receiving Leader': 'Calvin Ridley'\n    },\n    'Baltimore Ravens': {\n        'Rushing Leader': 'Lamar Jackson',\n        'Receiving Leader': 'Marquise Brown'\n    },\n    'Buffalo Bills': {\n        'Rushing Leader': 'Devin Singletary',\n        'Receiving Leader': 'Stefon Diggs'\n    },\n    'Carolina Panthers': {\n        'Rushing Leader': 'Mike Davis',\n        'Receiving Leader': 'Robby Anderson'\n    },\n    'Chicago Bears': {\n        'Rushing Leader': 'David Montgomery',\n        'Receiving Leader': 'Allen Robinson'\n    },\n    'Cincinnati Bengals': {\n        'Rushing Leader': 'Joe Mixon',\n        'Receiving Leader': 'Tyler Boyd'\n    },\n    'Cleveland Browns': {\n        'Rushing Leader': 'Nick Chubb',\n        'Receiving Leader': 'Jarvis Landry'\n    },\n    'Dallas Cowboys': {\n        'Rushing Leader': 'Ezekiel Elliott',\n        'Receiving Leader': 'Amari Cooper'\n    },\n    'Denver Broncos': {\n        'Rushing Leader': 'Melvin Gordon',\n        'Receiving Leader': 'Jerry Jeudy'\n    },\n    'Detroit Lions': {\n        'Rushing Leader': \"D'Andre Swift\",\n        'Receiving Leader': 'Marvin Jones'\n    },\n    'Green Bay Packers': {\n        'Rushing Leader': 'Aaron Jones',\n        'Receiving Leader': 'Davante Adams'\n    },\n    'Houston Texans': {\n        'Rushing Leader': 'David Johnson',\n        'Receiving Leader': 'Brandin Cooks'\n    },\n    'Indianapolis Colts': {\n        'Rushing Leader': 'Jonathan Taylor',\n        'Receiving Leader': 'T.Y. Hilton'\n    },\n    'Jacksonville Jaguars': {\n        'Rushing Leader': 'James Robinson',\n        'Receiving Leader': 'DJ Chark'\n    },\n    'Kansas City Chiefs': {\n        'Rushing Leader': 'Clyde Edwards-Helaire',\n        'Receiving Leader': 'Travis Kelce'\n    },\n    'Las Vegas Raiders': {\n        'Rushing Leader': 'Josh Jacobs',\n        'Receiving Leader': 'Darren Waller'\n    },\n    'Los Angeles Chargers': {\n        'Rushing Leader': 'Joshua Kelley',\n        'Receiving Leader': 'Keenan Allen'\n    },\n    'Los Angeles Rams': {\n        'Rushing Leader': 'Darrell Henderson',\n        'Receiving Leader': 'Cooper Kupp'\n    },\n    'Miami Dolphins': {\n        'Rushing Leader': 'Myles Gaskin',\n        'Receiving Leader': 'DeVante Parker'\n    },\n    'Minnesota Vikings': {\n        'Rushing Leader': 'Dalvin Cook',\n        'Receiving Leader': 'Justin Jefferson'\n    },\n    'New England Patriots': {\n        'Rushing Leader': 'Damien Harris',\n        'Receiving Leader': 'Jakobi Meyers'\n    },\n    'New Orleans Saints': {\n        'Rushing Leader': 'Alvin Kamara',\n        'Receiving Leader': 'Alvin Kamara'\n    },\n    'New York Giants': {\n        'Rushing Leader': 'Wayne Gallman',\n        'Receiving Leader': 'Darius Slayton'\n    },\n    'New York Jets': {\n        'Rushing Leader': 'Frank Gore',\n        'Receiving Leader': 'Jamison Crowder'\n    },\n    'Philadelphia Eagles': {\n        'Rushing Leader': 'Miles Sanders',\n        'Receiving Leader': 'Travis Fulgham'\n    },\n    'Pittsburgh Steelers': {\n        'Rushing Leader': 'James Conner',\n        'Receiving Leader': 'Diontae Johnson'\n    },\n    'San Francisco 49ers': {\n        'Rushing Leader': 'Raheem Mostert',\n        'Receiving Leader': 'Brandon Aiyuk'\n    },\n    'Seattle Seahawks': {\n        'Rushing Leader': 'Chris Carson',\n        'Receiving Leader': 'DK Metcalf'\n    },\n    'Tampa Bay Buccaneers': {\n        'Rushing Leader': 'Ronald Jones II',\n        'Receiving Leader': 'Mike Evans'\n    },\n    'Tennessee Titans': {\n        'Rushing Leader': 'Derrick Henry',\n        'Receiving Leader': 'Corey Davis'\n    },\n    'Washington Football Team': { \n        'Rushing Leader': 'Antonio Gibson',\n        'Receiving Leader': 'Terry McLaurin'\n    },\n}\n\nmarkdown_content1 = ''\nfor team, leaders in team_data.items():\n    markdown_content1 += f'## {team}\\n'\n    markdown_content1 += f'### Rushing Leader: {leaders[\"Rushing Leader\"]}\\n'\n    markdown_content1 += f'### Receiving Leader: {leaders[\"Receiving Leader\"]}\\n\\n'\n\n\nprint(markdown_content1)\n\n## Arizona Cardinals\n### Rushing Leader: Kenyan Drake\n### Receiving Leader: DeAndre Hopkins\n\n## Atlanta Falcons\n### Rushing Leader: Todd Gurley\n### Receiving Leader: Calvin Ridley\n\n## Baltimore Ravens\n### Rushing Leader: Lamar Jackson\n### Receiving Leader: Marquise Brown\n\n## Buffalo Bills\n### Rushing Leader: Devin Singletary\n### Receiving Leader: Stefon Diggs\n\n## Carolina Panthers\n### Rushing Leader: Mike Davis\n### Receiving Leader: Robby Anderson\n\n## Chicago Bears\n### Rushing Leader: David Montgomery\n### Receiving Leader: Allen Robinson\n\n## Cincinnati Bengals\n### Rushing Leader: Joe Mixon\n### Receiving Leader: Tyler Boyd\n\n## Cleveland Browns\n### Rushing Leader: Nick Chubb\n### Receiving Leader: Jarvis Landry\n\n## Dallas Cowboys\n### Rushing Leader: Ezekiel Elliott\n### Receiving Leader: Amari Cooper\n\n## Denver Broncos\n### Rushing Leader: Melvin Gordon\n### Receiving Leader: Jerry Jeudy\n\n## Detroit Lions\n### Rushing Leader: D'Andre Swift\n### Receiving Leader: Marvin Jones\n\n## Green Bay Packers\n### Rushing Leader: Aaron Jones\n### Receiving Leader: Davante Adams\n\n## Houston Texans\n### Rushing Leader: David Johnson\n### Receiving Leader: Brandin Cooks\n\n## Indianapolis Colts\n### Rushing Leader: Jonathan Taylor\n### Receiving Leader: T.Y. Hilton\n\n## Jacksonville Jaguars\n### Rushing Leader: James Robinson\n### Receiving Leader: DJ Chark\n\n## Kansas City Chiefs\n### Rushing Leader: Clyde Edwards-Helaire\n### Receiving Leader: Travis Kelce\n\n## Las Vegas Raiders\n### Rushing Leader: Josh Jacobs\n### Receiving Leader: Darren Waller\n\n## Los Angeles Chargers\n### Rushing Leader: Joshua Kelley\n### Receiving Leader: Keenan Allen\n\n## Los Angeles Rams\n### Rushing Leader: Darrell Henderson\n### Receiving Leader: Cooper Kupp\n\n## Miami Dolphins\n### Rushing Leader: Myles Gaskin\n### Receiving Leader: DeVante Parker\n\n## Minnesota Vikings\n### Rushing Leader: Dalvin Cook\n### Receiving Leader: Justin Jefferson\n\n## New England Patriots\n### Rushing Leader: Damien Harris\n### Receiving Leader: Jakobi Meyers\n\n## New Orleans Saints\n### Rushing Leader: Alvin Kamara\n### Receiving Leader: Alvin Kamara\n\n## New York Giants\n### Rushing Leader: Wayne Gallman\n### Receiving Leader: Darius Slayton\n\n## New York Jets\n### Rushing Leader: Frank Gore\n### Receiving Leader: Jamison Crowder\n\n## Philadelphia Eagles\n### Rushing Leader: Miles Sanders\n### Receiving Leader: Travis Fulgham\n\n## Pittsburgh Steelers\n### Rushing Leader: James Conner\n### Receiving Leader: Diontae Johnson\n\n## San Francisco 49ers\n### Rushing Leader: Raheem Mostert\n### Receiving Leader: Brandon Aiyuk\n\n## Seattle Seahawks\n### Rushing Leader: Chris Carson\n### Receiving Leader: DK Metcalf\n\n## Tampa Bay Buccaneers\n### Rushing Leader: Ronald Jones II\n### Receiving Leader: Mike Evans\n\n## Tennessee Titans\n### Rushing Leader: Derrick Henry\n### Receiving Leader: Corey Davis\n\n## Washington Football Team\n### Rushing Leader: Antonio Gibson\n### Receiving Leader: Terry McLaurin"
   },
   {
-    "objectID": "posts/Fdb13Post/Valentines.html",
-    "href": "posts/Fdb13Post/Valentines.html",
-    "title": "My Blog: Sean McKeown and the LLMS/",
-    "section": "",
-    "text": "title: “Sean’s Valentines Day!” description: “Destroy them mentally” author: “sean” date: “2/13/2024” categories: - LLMS - Testing - Valentines day"
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#success",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#success",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Success!",
+    "text": "Success!\n\nThe A.I. Officially was able to parse out a list, create it’s markdown code, and make it into a name list on all its own. The finally product is shown below."
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#arizona-cardinals",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#arizona-cardinals",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Arizona Cardinals",
+    "text": "Arizona Cardinals\n\nRushing Leader: Kenyan Drake\n\n\nReceiving Leader: DeAndre Hopkins"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#atlanta-falcons",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#atlanta-falcons",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Atlanta Falcons",
+    "text": "Atlanta Falcons\n\nRushing Leader: Todd Gurley\n\n\nReceiving Leader: Calvin Ridley"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#baltimore-ravens",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#baltimore-ravens",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Baltimore Ravens",
+    "text": "Baltimore Ravens\n\nRushing Leader: Lamar Jackson\n\n\nReceiving Leader: Marquise Brown"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#buffalo-bills",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#buffalo-bills",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Buffalo Bills",
+    "text": "Buffalo Bills\n\nRushing Leader: Devin Singletary\n\n\nReceiving Leader: Stefon Diggs"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#carolina-panthers",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#carolina-panthers",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Carolina Panthers",
+    "text": "Carolina Panthers\n\nRushing Leader: Mike Davis\n\n\nReceiving Leader: Robby Anderson"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#chicago-bears",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#chicago-bears",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Chicago Bears",
+    "text": "Chicago Bears\n\nRushing Leader: David Montgomery\n\n\nReceiving Leader: Allen Robinson"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#cincinnati-bengals",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#cincinnati-bengals",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Cincinnati Bengals",
+    "text": "Cincinnati Bengals\n\nRushing Leader: Joe Mixon\n\n\nReceiving Leader: Tyler Boyd"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#cleveland-browns",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#cleveland-browns",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Cleveland Browns",
+    "text": "Cleveland Browns\n\nRushing Leader: Nick Chubb\n\n\nReceiving Leader: Jarvis Landry"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#dallas-cowboys",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#dallas-cowboys",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Dallas Cowboys",
+    "text": "Dallas Cowboys\n\nRushing Leader: Ezekiel Elliott\n\n\nReceiving Leader: Amari Cooper"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#denver-broncos",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#denver-broncos",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Denver Broncos",
+    "text": "Denver Broncos\n\nRushing Leader: Melvin Gordon\n\n\nReceiving Leader: Jerry Jeudy"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#detroit-lions",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#detroit-lions",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Detroit Lions",
+    "text": "Detroit Lions\n\nRushing Leader: D’Andre Swift\n\n\nReceiving Leader: Marvin Jones"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#green-bay-packers",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#green-bay-packers",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Green Bay Packers",
+    "text": "Green Bay Packers\n\nRushing Leader: Aaron Jones\n\n\nReceiving Leader: Davante Adams"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#houston-texans",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#houston-texans",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Houston Texans",
+    "text": "Houston Texans\n\nRushing Leader: David Johnson\n\n\nReceiving Leader: Brandin Cooks"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#indianapolis-colts",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#indianapolis-colts",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Indianapolis Colts",
+    "text": "Indianapolis Colts\n\nRushing Leader: Jonathan Taylor\n\n\nReceiving Leader: T.Y. Hilton"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#jacksonville-jaguars",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#jacksonville-jaguars",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Jacksonville Jaguars",
+    "text": "Jacksonville Jaguars\n\nRushing Leader: James Robinson\n\n\nReceiving Leader: DJ Chark"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#kansas-city-chiefs",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#kansas-city-chiefs",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Kansas City Chiefs",
+    "text": "Kansas City Chiefs\n\nRushing Leader: Clyde Edwards-Helaire\n\n\nReceiving Leader: Travis Kelce"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#las-vegas-raiders",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#las-vegas-raiders",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Las Vegas Raiders",
+    "text": "Las Vegas Raiders\n\nRushing Leader: Josh Jacobs\n\n\nReceiving Leader: Darren Waller"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#los-angeles-chargers",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#los-angeles-chargers",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Los Angeles Chargers",
+    "text": "Los Angeles Chargers\n\nRushing Leader: Joshua Kelley\n\n\nReceiving Leader: Keenan Allen"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#los-angeles-rams",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#los-angeles-rams",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Los Angeles Rams",
+    "text": "Los Angeles Rams\n\nRushing Leader: Darrell Henderson\n\n\nReceiving Leader: Cooper Kupp"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#miami-dolphins",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#miami-dolphins",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Miami Dolphins",
+    "text": "Miami Dolphins\n\nRushing Leader: Myles Gaskin\n\n\nReceiving Leader: DeVante Parker"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#minnesota-vikings",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#minnesota-vikings",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Minnesota Vikings",
+    "text": "Minnesota Vikings\n\nRushing Leader: Dalvin Cook\n\n\nReceiving Leader: Justin Jefferson"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#new-england-patriots",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#new-england-patriots",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "New England Patriots",
+    "text": "New England Patriots\n\nRushing Leader: Damien Harris\n\n\nReceiving Leader: Jakobi Meyers"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#new-orleans-saints",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#new-orleans-saints",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "New Orleans Saints",
+    "text": "New Orleans Saints\n\nRushing Leader: Alvin Kamara\n\n\nReceiving Leader: Alvin Kamara"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#new-york-giants",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#new-york-giants",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "New York Giants",
+    "text": "New York Giants\n\nRushing Leader: Wayne Gallman\n\n\nReceiving Leader: Darius Slayton"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#new-york-jets",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#new-york-jets",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "New York Jets",
+    "text": "New York Jets\n\nRushing Leader: Frank Gore\n\n\nReceiving Leader: Jamison Crowder"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#philadelphia-eagles",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#philadelphia-eagles",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Philadelphia Eagles",
+    "text": "Philadelphia Eagles\n\nRushing Leader: Miles Sanders\n\n\nReceiving Leader: Travis Fulgham"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#pittsburgh-steelers",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#pittsburgh-steelers",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Pittsburgh Steelers",
+    "text": "Pittsburgh Steelers\n\nRushing Leader: James Conner\n\n\nReceiving Leader: Diontae Johnson"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#san-francisco-49ers",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#san-francisco-49ers",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "San Francisco 49ers",
+    "text": "San Francisco 49ers\n\nRushing Leader: Raheem Mostert\n\n\nReceiving Leader: Brandon Aiyuk"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#seattle-seahawks",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#seattle-seahawks",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Seattle Seahawks",
+    "text": "Seattle Seahawks\n\nRushing Leader: Chris Carson\n\n\nReceiving Leader: DK Metcalf"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#tampa-bay-buccaneers",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#tampa-bay-buccaneers",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Tampa Bay Buccaneers",
+    "text": "Tampa Bay Buccaneers\n\nRushing Leader: Ronald Jones II\n\n\nReceiving Leader: Mike Evans"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#tennessee-titans",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#tennessee-titans",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Tennessee Titans",
+    "text": "Tennessee Titans\n\nRushing Leader: Derrick Henry\n\n\nReceiving Leader: Corey Davis"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#washington-football-team",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#washington-football-team",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Washington Football Team",
+    "text": "Washington Football Team\n\nRushing Leader: Antonio Gibson\n\n\nReceiving Leader: Terry McLaurin"
+  },
+  {
+    "objectID": "posts/002_Feb12Post/GeneratingLists.html#last-changes",
+    "href": "posts/002_Feb12Post/GeneratingLists.html#last-changes",
+    "title": "Generating Lists, Week 5 Post 1",
+    "section": "Last Changes !",
+    "text": "Last Changes !\n\nI want the list prettier, so I prompt the A.I. to change towards different formating.\n\n\nThis last change crashed the A.I. ! It was unable to change the formatting from headings and subheadings to a more readable format. This will be the last bit of work I do on this particular project"
   }
 ]

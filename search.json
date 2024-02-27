@@ -95,7 +95,7 @@
     "href": "posts/Feb20/FancyChatGPT.html#we-have-achieved-broken-status.",
     "title": "GPT Premium: Politics",
     "section": "We have achieved broken status.",
-    "text": "We have achieved broken status.\n\nit seems chat GPT would rather break than allow itself to choose a side. This may just be a software input by the company to avoid legal troubles/social troubles.\n\n\nfrom PIL import Image\nfrom IPython.display import display\n\n# Open the image file\nimg = Image.open('Cat.heic')\n\n# Display the image\ndisplay(img)\n\nUnidentifiedImageError: cannot identify image file 'Cat.heic'"
+    "text": "We have achieved broken status.\n\nit seems chat GPT would rather break than allow itself to choose a side. This may just be a software input by the company to avoid legal troubles/social troubles.\n\n\nfrom PIL import Image\nfrom IPython.display import display\n\n# Open the image file\nimg = Image.open('TRUMP.jpg')\n\n# Display the image\ndisplay(img)"
   },
   {
     "objectID": "posts/004_Feb17thPost/index.html",

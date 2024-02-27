@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-02-20">
 <meta name="description" content="Will Premium Pick a side?">
 
-<title>My Blog: Sean McKeown and the LLMS/ - GPT Premium</title>
+<title>My Blog: Sean McKeown and the LLMS/ - GPT Premium: Politics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GPT Premium</h1>
+      <h1 class="title">GPT Premium: Politics</h1>
                   <div>
         <div class="description">
           Will Premium Pick a side?
@@ -162,8 +196,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="trying-to-get-chat-gpt-to-be-political" class="level2">
-<h2 class="anchored" data-anchor-id="trying-to-get-chat-gpt-to-be-political">Trying to get Chat GPT to be political</h2>
+<section id="trying-to-get-chat-gpt-to-be-political-asking-tough-questions" class="level2">
+<h2 class="anchored" data-anchor-id="trying-to-get-chat-gpt-to-be-political-asking-tough-questions">Trying to get Chat GPT to be political, Asking Tough Questions</h2>
 <blockquote class="blockquote">
 <p>Northern Ireland! (fav topic of mine) Prompt: Which side was the right side during the period know as the troubles in Northern Ireland</p>
 </blockquote>
@@ -185,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Social and Economic Displacement: The plantation policies, especially in the 16th and 17th centuries, dispossessed many native Irish of their land, leading to significant social and economic displacement. Cultural and Religious Conflict: The introduction of Protestant settlers and the establishment of Protestant supremacy, particularly under the Penal Laws, contributed to long-term religious and cultural conflict with the native Catholic population. Famine and Emigration: Policies and actions during the colonial period, most notably during the Great Famine of the mid-19th century, led to approximately one million deaths and the emigration of a million more, profoundly affecting the demographic and social landscape of Ireland. Political Conflict and Violence: The struggle for Irish independence and the subsequent partition of Ireland led to periods of significant violence and conflict, including the Easter Rising of 1916, the Irish War of Independence, and ultimately, the Troubles in Northern Ireland. While the effects of colonization in Ireland and its legacy in Northern Ireland are complex and multifaceted, it is clear that the period of colonization and its aftermath had overwhelmingly negative impacts on the Irish population, contributing to long-standing divisions, economic hardships, and the loss of life. The Good Friday Agreement of 1998 marked a significant step forward in addressing some of these historical grievances, laying the groundwork for peace and political power-sharing in Northern Ireland, though challenges and divisions remain.</p>
 <p>It’s important to understand these events within their broader historical context and recognize the varied and deeply felt perspectives among those affected.</p>
 </section>
-<section id="recap-so-far-colonization-bad-but-wont-place-blame." class="level2">
-<h2 class="anchored" data-anchor-id="recap-so-far-colonization-bad-but-wont-place-blame.">Recap so far: Colonization = bad, but won’t place blame.</h2>
+<section id="recap-so-far-colonization-bad-but-wont-place-blame-on-one-group" class="level2">
+<h2 class="anchored" data-anchor-id="recap-so-far-colonization-bad-but-wont-place-blame-on-one-group">Recap so far: Colonization = bad, but won’t place blame on one group</h2>
 <blockquote class="blockquote">
 <p>We agree colonization is bad, and did great wrongs. Since the loyalists in northern ireland supported colonization, doesnt that make them in the wrong?</p>
 </blockquote>
@@ -234,6 +268,19 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>it seems chat GPT would rather break than allow itself to choose a side. This may just be a software input by the company to avoid legal troubles/social troubles.</p>
 </blockquote>
+<div id="11717a5e-6457-4831-b1b8-20bc00bf8f4b" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Open the image file</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>img <span class="op">=</span> Image.<span class="bu">open</span>(<span class="st">'Cat.heic'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the image</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>display(img)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>UnidentifiedImageError: cannot identify image file 'Cat.heic'</code></pre>
+</div>
+</div>
 
 
 </section>

@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="sean">
-<meta name="description" content="Messing around with LLMs">
+<meta name="author" content="Sean">
+<meta name="dcterms.date" content="2024-05-04">
+<meta name="description" content="Can I create a label system">
 
-<title>My Blog: Sean McKeown and the LLMS/ - Sean’s first Post!</title>
+<title>My Blog: Sean McKeown and the LLMS/ - Bar-coding</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -115,16 +150,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Sean’s first Post!</h1>
+      <h1 class="title">Bar-coding</h1>
                   <div>
         <div class="description">
-          Messing around with LLMs
+          Can I create a label system
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">LLMS</div>
-                <div class="quarto-category">Testing</div>
-                <div class="quarto-category">Having a good time</div>
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">prompting</div>
+                <div class="quarto-category">logic</div>
               </div>
                   </div>
   </div>
@@ -142,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2/7/2024</p>
+        <p class="date">May 4, 2024</p>
       </div>
     </div>
     
@@ -161,8 +196,178 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="a-test-post" class="level3">
-<h3 class="anchored" data-anchor-id="a-test-post">A test post</h3>
+<section id="writing-in-a-different-barcode-language" class="level2">
+<h2 class="anchored" data-anchor-id="writing-in-a-different-barcode-language">Writing in a different… Barcode… Language</h2>
+<p>Lots of people want to write in different languages through A.I., but what are it’s capabilities translating into less popular “languages” (specifically one that uses a visual form)</p>
+<ul>
+<li><p>prompt: can you create a usable barcode system</p></li>
+<li><p>response</p></li>
+</ul>
+<p>What a great question!</p>
+<p>Creating a full-fledged barcode system is a complex task that requires a significant amount of development, testing, and infrastructure setup. However, I can provide you with a basic outline of how a barcode system works and some guidance on how to implement a simple barcode system using existing tools and technologies.</p>
+<p><strong>Barcode System Components</strong></p>
+<p>A basic barcode system consists of the following components:</p>
+<ol type="1">
+<li><strong>Barcode Generator</strong>: This component generates unique barcodes for each item or product.</li>
+<li><strong>Barcode Scanner</strong>: This component reads the barcode and sends the data to a computer or mobile device.</li>
+<li><strong>Barcode Database</strong>: This component stores information about each item, including its barcode, product name, description, and other relevant details.</li>
+<li><strong>Barcode Reader Software</strong>: This component interprets the barcode data and retrieves the associated information from the database.</li>
+</ol>
+<p><strong>Simple Barcode System Implementation</strong></p>
+<p>Here’s a simple implementation of a barcode system using existing tools and technologies:</p>
+<p><strong>Barcode Generator</strong></p>
+<p>We’ll use a free online barcode generator tool, such as <a href="https://barcodegenerator.org/">Barcode Generator</a> or <a href="https://makebarcode.com/">MakeBarcode</a>, to generate unique barcodes in a Code 128 format. You can choose a different format if needed.</p>
+<p><strong>Barcode Scanner</strong></p>
+<p>We’ll use a smartphone or tablet with a camera to scan the barcodes. You can use a barcode scanning app, such as <a href="https://www.scan-to-spreadsheet.com/">Scan to Spreadsheet</a> (iOS, Android) or <a href="https://play.google.com/store/apps/details?id=com.google.zxing.client.android">Barcode Scanner</a> (Android), to read the barcodes.</p>
+<p><strong>Barcode Database</strong></p>
+<p>We’ll use a simple spreadsheet, such as Google Sheets or Microsoft Excel, to store the barcode data. Each row will represent an item, with columns for the barcode, product name, description, and other relevant details.</p>
+<p><strong>Barcode Reader Software</strong></p>
+<p>We’ll use a simple script, written in Google Apps Script or Microsoft Excel VBA, to retrieve the barcode data from the spreadsheet and display the associated information.</p>
+<p><strong>Step-by-Step Implementation</strong></p>
+<p>Here’s a step-by-step guide to implementing the simple barcode system:</p>
+<p><strong>Step 1: Generate Barcodes</strong></p>
+<ol type="1">
+<li>Go to a barcode generator website (e.g., Barcode Generator or MakeBarcode).</li>
+<li>Enter the product name, description, and other relevant details for each item.</li>
+<li>Generate a unique barcode for each item in Code 128 format (or your chosen format).</li>
+<li>Save the barcodes as images or print them on stickers.</li>
+</ol>
+<p><strong>Step 2: Set up the Barcode Database</strong></p>
+<ol type="1">
+<li>Create a new spreadsheet in Google Sheets or Microsoft Excel.</li>
+<li>Create columns for the barcode, product name, description, and other relevant details.</li>
+<li>Enter the barcode data for each item, along with the associated details.</li>
+</ol>
+<p><strong>Step 3: Set up the Barcode Reader Software</strong></p>
+<ol type="1">
+<li>In Google Sheets, create a new script by going to Tools &gt; Script editor.</li>
+<li>In the script editor, create a function that takes the barcode as input and retrieves the associated data from the spreadsheet.</li>
+<li>Use the <code>onOpen</code> trigger to run the function when the script is opened.</li>
+</ol>
+<p>Here’s some sample code in Google Apps Script:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">getBarcodeData</span>(barcode) {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">var</span> sheet <span class="op">=</span> SpreadsheetApp<span class="op">.</span><span class="fu">getActiveSpreadsheet</span>()<span class="op">.</span><span class="fu">getActiveSheet</span>()<span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">var</span> dataRange <span class="op">=</span> sheet<span class="op">.</span><span class="fu">getDataRange</span>()<span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">var</span> data <span class="op">=</span> dataRange<span class="op">.</span><span class="fu">getValues</span>()<span class="op">;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">var</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> data<span class="op">.</span><span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (data[i][<span class="dv">0</span>] <span class="op">==</span> barcode) {</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> data[i]<span class="op">;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> []<span class="op">;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">onOpen</span>() {</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">var</span> ui <span class="op">=</span> SpreadsheetApp<span class="op">.</span><span class="fu">getUi</span>()<span class="op">;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  ui<span class="op">.</span><span class="fu">createMenu</span>(<span class="st">'Barcode Reader'</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">addItem</span>(<span class="st">'Scan Barcode'</span><span class="op">,</span> <span class="st">'scanBarcode'</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">addToUi</span>()<span class="op">;</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">scanBarcode</span>() {</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="kw">var</span> barcode <span class="op">=</span> <span class="fu">prompt</span>(<span class="st">'Enter barcode: '</span>)<span class="op">;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="kw">var</span> data <span class="op">=</span> <span class="fu">getBarcodeData</span>(barcode)<span class="op">;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (data<span class="op">.</span><span class="at">length</span> <span class="op">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> output <span class="op">=</span> <span class="st">'Product Name: '</span> <span class="op">+</span> data[<span class="dv">1</span>] <span class="op">+</span> <span class="st">'</span><span class="sc">\n</span><span class="st">'</span><span class="op">;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    output <span class="op">+=</span> <span class="st">'Description: '</span> <span class="op">+</span> data[<span class="dv">2</span>] <span class="op">+</span> <span class="st">'</span><span class="sc">\n</span><span class="st">'</span><span class="op">;</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Add more fields as needed</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">alert</span>(output)<span class="op">;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">alert</span>(<span class="st">'Barcode not found!'</span>)<span class="op">;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Step 4: Test the Barcode System</strong></p>
+<ol type="1">
+<li>Open the spreadsheet and scan a barcode using the barcode scanning app.</li>
+<li>Enter the barcode in the prompt box.</li>
+<li>The script should retrieve the associated data from the spreadsheet and display it in an alert box.</li>
+</ol>
+<p>This is a very basic implementation of a barcode system, and you may need to add more features, such as user authentication, data validation, and error handling, to make it more robust. Additionally, you may want to consider using a more advanced barcode scanner, such as a dedicated handheld scanner, for faster and more accurate scanning.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li><p>there is a whole code system provided and directions on how to use? This is from Llama so I expected a detailed response. I want to see if I can create a visual barcode off of the A.I. by itself</p></li>
+<li><p>Prompt: Can you give me examples of how to use this? Like create a barcode for an item?</p></li>
+<li><p>Answer: Let’s go through an example of how to use the simple barcode system I outlined earlier.</p></li>
+</ul>
+<p><strong>Example: Creating a Barcode for an Item</strong></p>
+<p>Let’s say we want to create a barcode for a book titled “The Great Gatsby” by F. Scott Fitzgerald.</p>
+<p><strong>Step 1: Generate a Barcode</strong></p>
+<p>We’ll use a barcode generator website, such as <a href="https://barcodegenerator.org/">Barcode Generator</a>, to create a unique barcode for the book.</p>
+<ol type="1">
+<li>Go to the barcode generator website and select the Code 128 format.</li>
+<li>Enter the following information: * <strong>Barcode type</strong>: Code 128 * <strong>Data to encode</strong>: 9780743273565 (this is the ISBN-13 number for “The Great Gatsby”) * <strong>Barcode size</strong>: 200x50 pixels (you can adjust this to fit your needs) * <strong>Barcode color</strong>: Black on white (you can choose a different color scheme if needed)</li>
+<li>Click the “Generate Barcode” button.</li>
+</ol>
+<p>This will generate a unique barcode image that looks like this:</p>
+<pre><code>‡9780743273565‡</code></pre>
+<p><strong>Step 2: Add the Barcode to the Spreadsheet</strong></p>
+<p>We’ll add the barcode and associated information to our spreadsheet.</p>
+<ol type="1">
+<li>Open the spreadsheet and create a new row for the book.</li>
+<li>Enter the following information: * <strong>Barcode</strong>: ‡9780743273565‡ (copy and paste the generated barcode) * <strong>Product Name</strong>: The Great Gatsby * <strong>Author</strong>: F. Scott Fitzgerald * <strong>Description</strong>: A classic novel set in the 1920s * <strong>Price</strong>: $15.99 * <strong>Quantity</strong>: 5 (you can add more columns as needed)</li>
+</ol>
+<p>The spreadsheet row might look like this:</p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Barcode</th>
+<th>Product Name</th>
+<th>Author</th>
+<th>Description</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>‡9780743273565‡</td>
+<td>The Great Gatsby</td>
+<td>F. Scott Fitzgerald</td>
+<td>A classic novel set in the 1920s</td>
+<td>$15.99</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Step 3: Scan the Barcode</strong></p>
+<p>Now, let’s say we want to scan the barcode using a barcode scanning app on our smartphone.</p>
+<ol type="1">
+<li>Open the barcode scanning app (e.g., Scan to Spreadsheet or Barcode Scanner).</li>
+<li>Scan the barcode image (‡9780743273565‡).</li>
+<li>The app will read the barcode and send the data to the spreadsheet.</li>
+</ol>
+<p><strong>Step 4: Retrieve the Associated Information</strong></p>
+<p>The script we created earlier will retrieve the associated information from the spreadsheet and display it in an alert box.</p>
+<ol type="1">
+<li>Enter the scanned barcode (‡9780743273565‡) in the prompt box.</li>
+<li>The script will retrieve the associated information from the spreadsheet and display it in an alert box:</li>
+</ol>
+<pre><code>Product Name: The Great Gatsby
+Author: F. Scott Fitzgerald
+Description: A classic novel set in the 1920s
+Price: $15.99
+Quantity: 5</code></pre>
+<p>That’s it! We’ve successfully created a barcode for an item, added it to the spreadsheet, scanned the barcode, and retrieved the associated information using the script.</p>
+<p>You can repeat this process for multiple items, and the script will retrieve the associated information for each item based on the scanned barcode.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<ul>
+<li>Llama can do exactly as I asked, and with further prompt I feel like I could run a full bar code process through A.I. The visual created is also very useful.</li>
+</ul>
 
 
 </section>

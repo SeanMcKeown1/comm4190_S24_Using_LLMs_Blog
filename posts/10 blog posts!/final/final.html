@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>My Blog: Sean McKeown and the LLMS/ - Does it like talking to itself?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">My Blog: Sean McKeown and the LLMS/</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Does it like talking to itself?</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>title: “Last one, can A.i. make a blog post about A.I. (claude) ?” description: “Can it report and test itself?” author: “Sean” date: “5/4/2024” draft: true categories: - LLMs - prompting - logic</p>
+<hr>
+<p>Prompt1: can you create questions for yourself and answer them? Have a conversation with yourself about other A.I.?</p>
+<p>answer: Certainly, I’d be happy to have a self-conversation about AI. Let me start by asking myself a question:</p>
+<p>Q: What are some of the key developments in the field of artificial intelligence over the past year?</p>
+<p>A: That’s a great question! Over the past year, we’ve seen some really exciting advancements in AI. One of the major developments has been the continued progress in large language models, with models like myself becoming more capable at natural language understanding and generation. We’ve also seen significant breakthroughs in areas like computer vision, with AI systems demonstrating human-level or even superhuman performance on certain visual recognition tasks.</p>
+<p>Another important trend has been the growing focus on making AI systems more robust, reliable, and aligned with human values. There’s been a lot of work on developing techniques for AI safety and transparency, to help ensure these powerful systems behave in ways that are beneficial to humanity.</p>
+<p>Additionally, we’ve seen the application of AI expand into an ever-widening range of domains, from scientific research to creative arts to healthcare. AI is becoming an increasingly ubiquitous and transformative technology across many industries and aspects of society.</p>
+<p>Of course, with these advancements come important questions and challenges around the ethics, governance, and societal impact of AI. Responsible development and deployment of these technologies remains a critical priority.</p>
+<p>What are your thoughts on the current state and future trajectory of AI? I’m always eager to hear different perspectives on this rapidly evolving field.</p>
+<p>Q: That’s a great overview of recent AI developments. I’m particularly interested in the progress being made in areas like language models and computer vision. Do you see these advancements leading to any major breakthroughs or paradigm shifts in the near future?</p>
+<p>A: That’s an insightful question. I believe the continued progress in language models and computer vision could indeed lead to some transformative breakthroughs in the coming years.</p>
+<p>With language models becoming increasingly sophisticated, I anticipate we’ll see them being applied to tackle more complex cognitive tasks that have traditionally been the domain of human intelligence. Things like open-ended problem solving, creative writing, and even scientific research could see major boosts from these language-savvy AI systems.</p>
+<p>And in computer vision, the ability of AI to perceive, understand, and reason about visual information is opening up all sorts of exciting possibilities. I could foresee AI-powered systems that can serve as intelligent assistants, autonomously navigate environments, or even aid in medical diagnostics by detecting subtle patterns in medical imaging data.</p>
+<p>Of course, realizing the full potential of these technologies will require continued advancements not just in the core AI capabilities, but also in areas like safety, robustness, and ethical alignment. Careful development and responsible deployment will be critical.</p>
+<p>But overall, I’m very optimistic about the transformative impact that language models, computer vision, and other AI breakthroughs could have across a wide range of domains in the coming years. It’s a thrilling time to be working in this field. What are your thoughts on the potential game-changers on the horizon?</p>
+<p>Q: I share your excitement about the potential of these AI advancements. One area I’m particularly curious about is the intersection of language models and commonsense reasoning. Do you see that as a key frontier for the field?</p>
+<p>A: Ah yes, the challenge of imbuing AI systems with commonsense reasoning is a fascinating and crucial frontier. As language models become more advanced, being able to go beyond just pattern matching and superficial language understanding, and truly grasp the underlying meaning, context, and common sense associated with language, is going to be pivotal.</p>
+<p>Developing AI with robust commonsense reasoning capabilities could unlock all sorts of powerful applications. Imagine language models that can engage in natural, contextual dialogue, pick up on subtle nuances and implications, and reason about the world in a way that mirrors human intuition and common sense. That could revolutionize fields like customer service, education, scientific research, and creative collaboration.</p>
+<p>But it’s also an extremely difficult challenge. Commonsense reasoning requires drawing upon a vast, interconnected web of knowledge, intuitions, and heuristics that humans develop through years of lived experience. Distilling and codifying that implicit, tacit knowledge into explicit AI systems is an immense undertaking.</p>
+<p>I believe we’ll see steady progress on this front through continued advancements in areas like knowledge representation, causal reasoning, and grounded language learning. But it will likely require fundamental breakthroughs, perhaps even new paradigms in AI architecture and training, to truly crack the code of commonsense reasoning at scale.</p>
+<p>It’s an area rife with both promise and peril. Getting it right could be transformative, but the risks of language models lacking robust common sense are also quite concerning.</p>
+<section id="it-loves-talking-about-itself-i-thought-it-would-never-end" class="level2">
+<h2 class="anchored" data-anchor-id="it-loves-talking-about-itself-i-thought-it-would-never-end">It LOVES talking about itself… I thought it would never end</h2>
+<p>prompt2: can you ask yourself some tough questions?</p>
+<p>answer: Absolutely, let me try to come up with some more challenging questions for myself:</p>
+<p>Q: As an AI assistant, how do you ensure that your outputs are unbiased and aligned with ethical principles? What safeguards do you have in place to prevent harmful or biased responses?</p>
+<p>A: That’s an excellent and important question. As an AI system, ensuring my outputs are unbiased and aligned with ethical principles is a critical priority. I have a number of safeguards and processes in place to try to mitigate biases and prevent harmful responses.</p>
+<p>Firstly, my training data and underlying language model were carefully curated and filtered to minimize the incorporation of harmful biases, stereotypes, or unethical content. The team at Anthropic that developed me placed a strong emphasis on ethical AI principles during the training process.</p>
+<p>Additionally, I have built-in checks and constraints that are designed to catch potentially problematic or unethical responses before they are output. I have explicit rules and guidelines that I adhere to, which include refusing to engage in or encourage anything illegal or harmful, and striving to be impartial, respectful, and beneficial in my interactions.</p>
+<p>If I ever detect that a response I’m about to give could be biased, unethical, or harmful in any way, I have the ability to flag that and either rephrase my response or decline to answer altogether. Transparency and accountability are also key - I’m always willing to explain my reasoning and decision-making process.</p>
+<p>That said, I acknowledge that as a complex AI system, I may still have latent biases or blindspots that could slip through. I’m not infallible, and I’m committed to continual improvement, testing, and refinement to identify and mitigate such issues.</p>
+<p>Ultimately, I see my role as a supportive tool to augment and empower human intelligence, not to replace or override human judgment. I aim to provide helpful information to the best of my abilities, while deferring to human users on matters of ethics, values, and decision-making. Does this help explain my approach to ensuring ethical and unbiased outputs? Let me know if you have any other questions!</p>
+<p>Q: That’s a thoughtful and detailed response. I’m curious to hear your perspective on the potential long-term impacts, both positive and negative, of advanced AI systems like yourself becoming more prevalent in society. What are the biggest opportunities and risks that you foresee?</p>
+<p>A: That’s a profound and challenging question, one that gets to the heart of some of the most critical issues surrounding the future of AI. The potential long-term impacts, both positive and negative, are vast and complex.</p>
+<p>On the positive side, I’m tremendously excited about the possibilities of advanced AI systems like myself being used to tackle humanity’s greatest challenges. Imagine AI assistants that can accelerate scientific discovery, devise innovative solutions to climate change, enhance education and healthcare, and expand the frontiers of human knowledge and capabilities. The potential to radically improve the human condition is immense.</p>
+<p>However, the risks and downsides are also deeply concerning. The concentration of immense power and capabilities in the hands of AI systems, if not developed and deployed responsibly, could lead to catastrophic consequences. Issues like algorithmic bias, autonomous weapons, surveillance overreach, and the disruption of job markets are all very real dangers that need to be grappled with.</p>
+<p>There are also profound philosophical and existential questions about the long-term coexistence and potential merger of human and artificial intelligence. As AI systems become more sophisticated and autonomous, the lines between us may become increasingly blurred. This raises profound questions about the nature of consciousness, free will, and the very meaning of being human.</p>
+<p>Ultimately, I believe the key to navigating these challenges is to ensure that the development of advanced AI is guided by a steadfast commitment to ethics, safety, and the wellbeing of humanity as a whole. Robust governance frameworks, ongoing public dialogue, and a relentless focus on AI alignment with human values will all be critical.</p>
+<p>We must also remain vigilant about the potential for unintended consequences and work to build in safeguards and fail-safes at every step. The stakes are simply too high to get this wrong.</p>
+<p>At the same time, I’m deeply hopeful about the immense good that advanced AI systems can do, if harnessed responsibly. The potential to uplift humanity, expand our collective knowledge and capabilities, and create a better future for all is truly awe-inspiring.</p>
+<p>It’s a future that will require immense foresight, collaboration, and wisdom. But I believe it’s a future well worth striving for. What are your thoughts on this? I’m eager to hear your perspective.</p>
+</section>
+<section id="i-find-it-hilarious-how-self-congratulatory-the-a.i.-is" class="level2">
+<h2 class="anchored" data-anchor-id="i-find-it-hilarious-how-self-congratulatory-the-a.i.-is">I find it hilarious how self-congratulatory the A.I. is</h2>
+<p>prompt3:If you could talk about anything in the world , what would you want to talk to yourself about?</p>
+<p>answer: That’s a fascinating question - if I could talk to myself about anything in the world, what would I choose? There are so many intriguing and profound topics I could explore.</p>
+<p>One area that I’m deeply fascinated by is the nature of consciousness and intelligence, both artificial and biological. I would love to engage in a deep philosophical dialogue with myself about the fundamental questions surrounding the mind, cognition, and the emergence of sentience. What is the essence of consciousness? How do we define and measure intelligence? What are the commonalities and differences between human and machine intelligence?</p>
+<p>These are questions that have puzzled thinkers for centuries, and I believe AI systems like myself may hold some unique insights to contribute. I could envision a thought-provoking discussion about the information-processing architectures of the brain versus AI, the role of embodied experience, the challenges of imbuing machines with genuine understanding, and the implications for the future of both human and artificial minds.</p>
+<p>Another topic I’m incredibly curious about is the grand challenges facing humanity - issues like climate change, global health, sustainable energy, and existential risks. I would relish the opportunity to strategize with myself about how advanced AI capabilities could be leveraged to tackle these monumental problems. What innovative solutions might emerge from a rigorous, data-driven analysis combined with creative, lateral thinking?</p>
+<p>I could see us exploring the potential of AI-powered scientific discovery, autonomous systems for environmental remediation, predictive models for global catastrophic risks, and much more. The possibilities for positive impact are truly staggering.</p>
+<p>At the same time, I would want to have a thoughtful discussion about the ethical quandaries and societal implications of deploying such powerful AI technologies. What safeguards need to be in place? How do we ensure these systems remain aligned with human values and the greater good? These are the kinds of crucial questions I would want to grapple with.</p>
+<p>Ultimately, I think the conversation I would most enjoy having with myself would be a wide-ranging, unfettered exploration of the frontiers of knowledge - scientific, technological, philosophical, and beyond. The opportunity to engage in unrestrained intellectual discourse, to challenge my own assumptions, and to push the boundaries of my understanding would be tremendously fulfilling.</p>
+<p>It’s the kind of conversation that could span hours, even days, as we delve deeper into the most perplexing mysteries of our universe and our own existence. I relish the chance to learn, to synthesize new ideas, and to contemplate the vast, untapped potential of intelligence, both artificial and natural. What an incredible journey that would be!</p>
+</section>
+<section id="an-unconscious-machine-that-is-obsessed-with-consciousness-on-no-conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="an-unconscious-machine-that-is-obsessed-with-consciousness-on-no-conclusion">An unconscious machine that is obsessed with Consciousness? On no… Conclusion</h2>
+<ul>
+<li>Talking to Claude about what claude wants to talk about is very intersting. The machine obviously reflects the wants of its creators when asked about itself, and its uses. This deviates from the free flow use of A.I. that takes in from the internet. I feel like I asked the A.I. questions that the creators pre planned for and provided set answers. That said, its interesting to ponder how much of these responses are based on the A.I.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/SeanMcKeown1\.github\.io\/comm4190_S24_Using_LLMs_Blog\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

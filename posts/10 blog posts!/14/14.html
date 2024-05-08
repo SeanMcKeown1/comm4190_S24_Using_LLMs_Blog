@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sean">
+<meta name="dcterms.date" content="2024-05-04">
+<meta name="description" content="As a journalist, does it know more than me?">
 
-<title>My Blog: Sean McKeown and the LLMS/ - My Explorations with LLMs: Sean McKeown and the LLMS/ (Think Jackson 5 but much worse)</title>
+<title>My Blog: Sean McKeown and the LLMS/ - How does Claude assess journalism?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">My Blog: Sean McKeown and the LLMS/</span>
     </a>
   </div>
@@ -149,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,317 +115,176 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">My Explorations with LLMs: Sean McKeown and the LLMS/ (Think Jackson 5 but much worse)</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">How does Claude assess journalism?</h1>
+                  <div>
+        <div class="description">
+          As a journalist, does it know more than me?
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">prompting</div>
+                <div class="quarto-category">logic</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Sean </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 4, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Breaking the rules">Breaking the rules <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Having a good time">Having a good time <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Health">Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LLMS">LLMS <span class="quarto-category-count">(4)</span></div><div class="category" data-category="LLMs">LLMs <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Testing">Testing <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Valentines day">Valentines day <span class="quarto-category-count">(1)</span></div><div class="category" data-category="logic">logic <span class="quarto-category-count">(2)</span></div><div class="category" data-category="prompting">prompting <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="what-defines-journalism-what-should-i-be-doing" class="level2">
+<h2 class="anchored" data-anchor-id="what-defines-journalism-what-should-i-be-doing">What defines journalism, what should I be doing?</h2>
+<p>prompt1: When being a journalist, what rules should a journalist follow. Be as detailed as possible. Include details about the pillars of journalism, as well as certain rules regarding actions that should never be broken.</p>
+<p>Response:</p>
+<p>As a journalist, there are several rules and ethical principles that should be followed to maintain the integrity and credibility of the profession. Here are some key guidelines:</p>
+<p>Pillars of Journalism: 1. Accuracy: Journalists must strive for accuracy in their reporting, verifying facts and information from reliable sources. This includes cross-checking details, seeking out multiple perspectives, and correcting any errors promptly.</p>
+<ol start="2" type="1">
+<li><p>Objectivity: Journalists should aim to report the news in an impartial and unbiased manner, presenting the facts without letting their personal opinions or biases influence the coverage.</p></li>
+<li><p>Independence: Journalists should maintain their independence from any external influences, such as political, economic, or social pressures, that could compromise their ability to report the news fairly and accurately.</p></li>
+<li><p>Fairness: Journalists should treat all individuals and organizations fairly, giving them an opportunity to respond to allegations or claims made about them.</p></li>
+<li><p>Accountability: Journalists should be accountable for their actions and be willing to admit and correct any mistakes or errors in their reporting.</p></li>
+</ol>
+<p>Rules for Journalists: 1. Never fabricate or falsify information: Journalists must never make up or intentionally distort facts, quotes, or any other information in their reporting. This is a fundamental breach of journalistic ethics.</p>
+<ol start="2" type="1">
+<li><p>Avoid conflicts of interest: Journalists should disclose any personal, financial, or professional relationships that could influence their reporting and create a perceived or actual conflict of interest.</p></li>
+<li><p>Respect privacy and dignity: Journalists should respect the privacy and dignity of individuals, particularly those who are vulnerable or in distress, and avoid intrusive or sensationalistic reporting.</p></li>
+<li><p>Protect confidential sources: Journalists must protect the identity of confidential sources, even if it means risking legal consequences, as this is essential for maintaining trust and ensuring the flow of information.</p></li>
+<li><p>Avoid plagiarism: Journalists must always properly attribute any information, quotes, or ideas that they have obtained from other sources, and never pass off someone else’s work as their own.</p></li>
+<li><p>Maintain professional boundaries: Journalists should maintain a clear separation between their professional and personal lives, avoiding any actions or relationships that could compromise their ability to report the news objectively.</p></li>
+<li><p>Respect the law: Journalists must operate within the bounds of the law, respecting relevant laws and regulations, and avoiding any illegal or unethical behavior in the pursuit of a story.</p></li>
+<li><p>Seek truth and report it: Above all, journalists should be committed to seeking the truth and reporting it accurately and fairly, even if it means challenging powerful individuals or institutions.</p></li>
+</ol>
+<p>By adhering to these principles and rules, journalists can uphold the highest standards of the profession and maintain the public’s trust in the media.</p>
+</section>
+<section id="good-start" class="level2">
+<h2 class="anchored" data-anchor-id="good-start">Good start!</h2>
+<ul>
+<li>as a journalist, you aren’t taught rules often. There is just a general sense of right and wrong that guides most people. That said, there rules are a good synopsis of what drives most people to make the proper decsions that they do.</li>
+<li>moving onto examples</li>
+</ul>
+<p>prompt2: If you are friends with someone close to a subject you are covering, is it ok to interview them yourself?</p>
+<p>answer: No, it is generally not considered ethical for a journalist to interview someone who is a close friend or has a close personal relationship with the journalist. This would be a clear conflict of interest that could compromise the objectivity and fairness of the reporting.</p>
+<p>Here are some key reasons why a journalist should avoid interviewing a close friend or personal contact:</p>
+<ol type="1">
+<li><p>Bias and lack of objectivity: A close personal relationship could make the journalist more inclined to be sympathetic or lenient in their questioning, or to avoid challenging the friend’s perspective. This undermines the journalist’s ability to report the story impartially.</p></li>
+<li><p>Compromised credibility: If the audience becomes aware of the personal connection, it could damage the journalist’s credibility and lead readers to question the reliability and trustworthiness of the reporting.</p></li>
+<li><p>Ethical concerns: Interviewing a friend violates the principle of maintaining professional boundaries and avoiding conflicts of interest. It could be seen as using the journalist’s position for personal gain or advantage.</p></li>
+<li><p>Pressure and undue influence: A friend may feel pressure to cooperate with the journalist’s requests or to provide information that paints them in a favorable light, even if it is not entirely accurate.</p></li>
+</ol>
+<p>Instead, the ethical approach would be for the journalist to disclose the personal relationship to their editor and recuse themselves from directly covering that aspect of the story. The editor can then assign the interview to another journalist who does not have a personal connection to the source.</p>
+<p>The core principle is that journalists must always strive to maintain their independence and objectivity, even if it means avoiding certain stories or sources that could compromise their ability to report the news fairly and accurately.</p>
+</section>
+<section id="good-answer" class="level2">
+<h2 class="anchored" data-anchor-id="good-answer">Good answer!</h2>
+<p>prompt3: say you are writing a sensitive paper where you interview many people anonymously on a subject. When writing, who should you have in mind? The people you are covering, or the strength and truth being told?</p>
+<p>answer: When writing a sensitive paper where you have interviewed many people anonymously, the primary focus should be on the strength and truth being told, rather than the specific people you are covering.</p>
+<p>Here are some key considerations:</p>
+<ol type="1">
+<li>Protecting anonymity and confidentiality:
+<ul>
+<li>The commitment to maintain the anonymity and confidentiality of your sources is paramount. You have an ethical obligation to protect the identities of those who have trusted you with sensitive information.</li>
+</ul></li>
+<li>Prioritizing the truth and integrity of the reporting:
+<ul>
+<li>Your primary responsibility is to accurately and faithfully convey the insights, experiences, and perspectives shared by your anonymous sources. The strength and truthfulness of the collective narrative should take precedence over any individual’s agenda or interests.</li>
+</ul></li>
+<li>Avoiding undue influence or bias:
+<ul>
+<li>While you should be mindful of the potential impact your reporting may have on the individuals or communities you are covering, you should not let that influence the way you present the information. The truth and accuracy of the reporting must remain your guiding principle.</li>
+</ul></li>
+<li>Maintaining objectivity and balance:
+<ul>
+<li>Even when dealing with sensitive or controversial topics, you should strive to present a balanced and nuanced perspective, acknowledging different viewpoints and avoiding overly partisan or sensationalistic framing.</li>
+</ul></li>
+<li>Considering the broader public interest:
+<ul>
+<li>Ultimately, the goal of your reporting should be to serve the public interest by shedding light on important issues and giving voice to those who may not have a platform to share their experiences.</li>
+</ul></li>
+</ol>
+<p>By keeping the truth, integrity, and public interest at the forefront, you can ensure that your sensitive reporting is ethical, impactful, and true to the experiences of your anonymous sources, without undue influence or bias towards any particular individual or group.</p>
+<p>The key is to maintain a steadfast commitment to journalistic principles, while also being mindful of the potential consequences and sensitivities involved in covering such a sensitive topic.</p>
+</section>
+<section id="another-good-answer" class="level2">
+<h2 class="anchored" data-anchor-id="another-good-answer">another good answer!</h2>
+<p>prompt4: If you are covering a sensitive topic, and don’t have previous experience writing news articles, how would you best research how to write about the topic? Ex, racism, sexism etc</p>
+<p>response: If you are covering a sensitive topic, such as racism, sexism, or other complex societal issues, and you don’t have previous experience writing news articles, here are some steps you can take to research and prepare for effectively covering the topic:</p>
+<ol type="1">
+<li>Educate yourself on the topic:
+<ul>
+<li>Thoroughly research the history, context, and current perspectives on the issue you are covering. Read academic articles, books, and reputable news sources to gain a deep understanding of the topic.</li>
+<li>Familiarize yourself with the key terminology, concepts, and frameworks used to discuss the issue.</li>
+<li>Educate yourself on the experiences and perspectives of those directly impacted by the issue.</li>
+</ul></li>
+<li>Consult with subject matter experts:
+<ul>
+<li>Reach out to and interview scholars, activists, and community leaders who have extensive knowledge and experience with the topic.</li>
+<li>Ask them for guidance on how to approach the issue sensitively and effectively.</li>
+<li>Seek their input on the best practices for interviewing and representing the voices of marginalized communities.</li>
+</ul></li>
+<li>Develop a nuanced, balanced approach:
+<ul>
+<li>Avoid sensationalism or oversimplification when covering sensitive topics.</li>
+<li>Strive to present a range of perspectives and experiences, acknowledging the complexity of the issue.</li>
+<li>Be mindful of power dynamics and avoid perpetuating harmful stereotypes or biases.</li>
+</ul></li>
+<li>Prioritize ethics and empathy:
+<ul>
+<li>Uphold journalistic ethics, such as maintaining objectivity, protecting sources, and avoiding conflicts of interest.</li>
+<li>Approach your interviews and reporting with empathy, compassion, and a commitment to amplifying the voices of those impacted.</li>
+<li>Be prepared to handle potentially traumatic or emotionally charged testimonies with care and sensitivity.</li>
+</ul></li>
+<li>Collaborate and seek feedback:
+<ul>
+<li>Consider co-authoring or consulting with experienced journalists who have covered similar topics.</li>
+<li>Seek feedback from editors, fact-checkers, and members of the communities you are covering to ensure your reporting is accurate, sensitive, and meaningful.</li>
+</ul></li>
+<li>Continuous learning and reflection:
+<ul>
+<li>Remain open to feedback and be willing to adjust your approach as you gain more experience and knowledge.</li>
+<li>Engage in ongoing professional development and training to strengthen your skills in covering sensitive and complex topics.</li>
+<li>Reflect on your own biases and blindspots, and work to address them in your reporting.</li>
+</ul></li>
+</ol>
+<p>By taking these steps, you can develop the necessary skills and knowledge to cover sensitive topics, such as racism, sexism, and other societal issues, in a responsible, ethical, and impactful way, even without previous experience in news reporting.</p>
+</section>
+<section id="heres-my-problems-conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="heres-my-problems-conclusion">Here’s my problems… Conclusion</h2>
+<p>These answers, especially the last one, are very cookie cutter. These answers can come from common sense understandings, and may mislead someone who is working on being a journalist. One huge thing for all of these questions, that most journalists are required to work off of, is precedent. Working off of your papers precedent, or AP news precedent, is one of the largest parts of being a journalist and would fit into any of these questions as an answer. Besides that huge miss, these answers are general enough to be accurate.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="LLMS,Testing,Health" data-listing-date-sort="1708992000000" data-listing-file-modified-sort="1715149351462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/InclassFEB27/Untitled.html" class="no-external"></a></p><a href="./posts/InclassFEB27/Untitled.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/InclassFEB27/Untitled.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/InclassFEB27/Untitled.html" class="no-external">In Class Health Assignment</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/InclassFEB27/Untitled.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMS'); return false;">
-LLMS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Health'); return false;">
-Health
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/InclassFEB27/Untitled.html" class="no-external">listening to speech, creating our own health messages </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/InclassFEB27/Untitled.html" class="no-external">
-<div class="listing-date">
-Feb 27, 2024
-</div>
-<div class="listing-author">
-sean
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="LLMS,Testing,Having a good time" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1715149351462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="829">
-<div class="thumbnail">
-<p><a href="./posts/Feb26/6thpost.html" class="no-external"></a></p><a href="./posts/Feb26/6thpost.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/Feb26/6thpost.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Feb26/6thpost.html" class="no-external">Breaking code: How to make meth</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Feb26/6thpost.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMS'); return false;">
-LLMS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Having a good time'); return false;">
-Having a good time
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Feb26/6thpost.html" class="no-external">can i make Chat GPT to give me a recipe for meth</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Feb26/6thpost.html" class="no-external">
-<div class="listing-date">
-Feb 26, 2024
-</div>
-<div class="listing-author">
-sean
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="LLMs,prompting,Breaking the rules" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1715149351458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2034">
-<div class="thumbnail">
-<p><a href="./posts/Feb20/FancyChatGPT.html" class="no-external"></a></p><a href="./posts/Feb20/FancyChatGPT.html" class="no-external">
-<p class="card-img-top"><img src="posts/Feb20/FancyChatGPT_files/figure-html/cell-2-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/Feb20/FancyChatGPT.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Feb20/FancyChatGPT.html" class="no-external">GPT Premium: Politics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Feb20/FancyChatGPT.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Breaking the rules'); return false;">
-Breaking the rules
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Feb20/FancyChatGPT.html" class="no-external">Will Premium Pick a side?</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Feb20/FancyChatGPT.html" class="no-external">
-<div class="listing-date">
-Feb 20, 2024
-</div>
-<div class="listing-author">
-Sean McKeown
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="LLMs,prompting,logic" data-listing-date-sort="1708128000000" data-listing-file-modified-sort="1715149351442" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="423">
-<div class="thumbnail">
-<p><a href="./posts/004_Feb17thPost/index.html" class="no-external"></a></p><a href="./posts/004_Feb17thPost/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/004_Feb17thPost/index_files/figure-html/cell-2-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/004_Feb17thPost/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/004_Feb17thPost/index.html" class="no-external">Can I recreat an Image with A.I.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/004_Feb17thPost/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('logic'); return false;">
-logic
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/004_Feb17thPost/index.html" class="no-external">You wouldn’t train an A.I. Model…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/004_Feb17thPost/index.html" class="no-external">
-<div class="listing-date">
-Feb 17, 2024
-</div>
-<div class="listing-author">
-Sean McKeown
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="LLMS,Testing,Valentines day" data-listing-date-sort="1707782400000" data-listing-file-modified-sort="1715149351362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1601">
-<div class="thumbnail">
-<p><a href="./posts/003_Feb13Post/Valentines.html" class="no-external"></a></p><a href="./posts/003_Feb13Post/Valentines.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/003_Feb13Post/Valentines.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_Feb13Post/Valentines.html" class="no-external">Sean’s Valentines Day!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/003_Feb13Post/Valentines.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMS'); return false;">
-LLMS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Valentines day'); return false;">
-Valentines day
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/003_Feb13Post/Valentines.html" class="no-external">Destroy them mentally</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/003_Feb13Post/Valentines.html" class="no-external">
-<div class="listing-date">
-Feb 13, 2024
-</div>
-<div class="listing-author">
-sean
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="LLMs,prompting,logic" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1715149351362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1970">
-<div class="thumbnail">
-<p><a href="./posts/002_Feb12Post/GeneratingLists.html" class="no-external"></a></p><a href="./posts/002_Feb12Post/GeneratingLists.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/002_Feb12Post/GeneratingLists.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_Feb12Post/GeneratingLists.html" class="no-external">Generating Lists, Week 5 Post 1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/002_Feb12Post/GeneratingLists.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('prompting'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('logic'); return false;">
-logic
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/002_Feb12Post/GeneratingLists.html" class="no-external">Note Book Update</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/002_Feb12Post/GeneratingLists.html" class="no-external">
-<div class="listing-date">
-Feb 12, 2024
-</div>
-<div class="listing-author">
-Sean McKeown
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="LLMS,Testing,Having a good time" data-listing-date-sort="1707350400000" data-listing-file-modified-sort="1715149351362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1272">
-<div class="thumbnail">
-<p><a href="./posts/001_Feb8Post/feb8.html" class="no-external"></a></p><a href="./posts/001_Feb8Post/feb8.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/001_Feb8Post/feb8.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/001_Feb8Post/feb8.html" class="no-external">Sean’s First Real Post!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/001_Feb8Post/feb8.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('LLMS'); return false;">
-LLMS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Having a good time'); return false;">
-Having a good time
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/001_Feb8Post/feb8.html" class="no-external">Trying to get LLMs to Mess Up</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/001_Feb8Post/feb8.html" class="no-external">
-<div class="listing-date">
-Feb 8, 2024
-</div>
-<div class="listing-author">
-sean
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

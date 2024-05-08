@@ -23,40 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -256,45 +222,54 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>All of these quotes are real, and belong to the same texts that the A.I. lists. Some of these quotes are to documents I can’t find open access to online.</li>
 </ul>
 <p>Prompt: Where can I find full copies of each of these sources?</p>
-<div id="64a29af8-f9d5-4b6d-b5e2-fd24f314cd55" class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Results:Here are some suggestions on where to find full copies of each of the sources:</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fl">1.</span> <span class="op">**</span>Lasswell, H. D. (<span class="dv">1948</span>). The Structure <span class="kw">and</span> Function of Communication <span class="kw">in</span> Society. In L. Bryson (Ed.), The Communication of Ideas (pp. <span class="dv">37</span><span class="op">-</span><span class="dv">51</span>). New York: Harper <span class="op">&amp;</span> Brothers.<span class="op">**</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> University libraries: Check <span class="cf">if</span> your university library has a physical copy of the book <span class="kw">or</span> access to a digital version through their online catalog.</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Google Books: You can also find a preview of the book on Google Books, but it might <span class="kw">not</span> be available <span class="cf">for</span> full download.</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fl">2.</span> <span class="op">**</span>Berger, C. R., <span class="op">&amp;</span> Calabrese, R. J. (<span class="dv">1975</span>). Some Explorations <span class="kw">in</span> Initial Interaction <span class="kw">and</span> Beyond: Toward a Developmental Theory of Interpersonal Communication. Human Communication Research, <span class="dv">1</span>(<span class="dv">2</span>), <span class="dv">99</span><span class="op">-</span><span class="fl">112.</span><span class="op">**</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Academic databases: You can find the article on academic databases such <span class="im">as</span> JSTOR, EBSCO, <span class="kw">or</span> ProQuest through your university library<span class="st">'s online resources.</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="er">* Online repositories: Some universities or research institutions may have open-access repositories where you can find the article.</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Interlibrary loan: If you don<span class="st">'t have access to the article through your university library, you can request an interlibrary loan from another library that has a physical copy.</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="er">3. **Hall, S. </span>(<span class="dv">1980</span>). Encoding<span class="op">/</span>Decoding. In S. Hall, D. Hobson, A. Lowe, <span class="op">&amp;</span> P. Willis (Eds.), Culture, Media, Language: Working Papers <span class="kw">in</span> Cultural Studies, <span class="dv">1972</span><span class="op">-</span><span class="dv">79</span> (pp. <span class="dv">128</span><span class="op">-</span><span class="dv">138</span>). London: Hutchinson.<span class="op">**</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> University libraries: Check <span class="cf">if</span> your university library has a physical copy of the book <span class="kw">or</span> access to a digital version through their online catalog.</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Google Books: You can also find a preview of the book on Google Books, but it might <span class="kw">not</span> be available <span class="cf">for</span> full download.</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fl">4.</span> <span class="op">**</span>Goffman, E. (<span class="dv">1959</span>). The Presentation of Self <span class="kw">in</span> Everyday Life. New York: Doubleday.<span class="op">**</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> University libraries: Check <span class="cf">if</span> your university library has a physical copy of the book <span class="kw">or</span> access to a digital version through their online catalog.</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Google Books: You can also find a preview of the book on Google Books, but it might <span class="kw">not</span> be available <span class="cf">for</span> full download.</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Bookstores: You can also purchase a physical copy of the book <span class="im">from</span> online bookstores like Amazon <span class="kw">or</span> Abebooks.</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fl">5.</span> <span class="op">**</span>Carey, J. W. (<span class="dv">1989</span>). Communication <span class="im">as</span> Culture: Essays on Media <span class="kw">and</span> Society. New York: Routledge.<span class="op">**</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> University libraries: Check <span class="cf">if</span> your university library has a physical copy of the book <span class="kw">or</span> access to a digital version through their online catalog.</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Google Books: You can also find a preview of the book on Google Books, but it might <span class="kw">not</span> be available <span class="cf">for</span> full download.</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="op">*</span> Bookstores: You can also purchase a physical copy of the book <span class="im">from</span> online bookstores like Amazon <span class="kw">or</span> Abebooks.</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>Remember to always check the copyright <span class="kw">and</span> usage rights before sharing <span class="kw">or</span> distributing <span class="bu">any</span> of these sources.</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>All of these answers don’t give actual locations or add</p>
+<p>Results:Here are some suggestions on where to find full copies of each of the sources:</p>
+<ol type="1">
+<li><strong>Lasswell, H. D. (1948). The Structure and Function of Communication in Society. In L. Bryson (Ed.), The Communication of Ideas (pp.&nbsp;37-51). New York: Harper &amp; Brothers.</strong></li>
+</ol>
+<ul>
+<li>Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</li>
+<li>University libraries: Check if your university library has a physical copy of the book or access to a digital version through their online catalog.</li>
+<li>Google Books: You can also find a preview of the book on Google Books, but it might not be available for full download.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Berger, C. R., &amp; Calabrese, R. J. (1975). Some Explorations in Initial Interaction and Beyond: Toward a Developmental Theory of Interpersonal Communication. Human Communication Research, 1(2), 99-112.</strong></li>
+</ol>
+<ul>
+<li>Academic databases: You can find the article on academic databases such as JSTOR, EBSCO, or ProQuest through your university library’s online resources.</li>
+<li>Online repositories: Some universities or research institutions may have open-access repositories where you can find the article.</li>
+<li>Interlibrary loan: If you don’t have access to the article through your university library, you can request an interlibrary loan from another library that has a physical copy.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Hall, S. (1980). Encoding/Decoding. In S. Hall, D. Hobson, A. Lowe, &amp; P. Willis (Eds.), Culture, Media, Language: Working Papers in Cultural Studies, 1972-79 (pp.&nbsp;128-138). London: Hutchinson.</strong></li>
+</ol>
+<ul>
+<li>Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</li>
+<li>University libraries: Check if your university library has a physical copy of the book or access to a digital version through their online catalog.</li>
+<li>Google Books: You can also find a preview of the book on Google Books, but it might not be available for full download.</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Goffman, E. (1959). The Presentation of Self in Everyday Life. New York: Doubleday.</strong></li>
+</ol>
+<ul>
+<li>Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</li>
+<li>University libraries: Check if your university library has a physical copy of the book or access to a digital version through their online catalog.</li>
+<li>Google Books: You can also find a preview of the book on Google Books, but it might not be available for full download.</li>
+<li>Bookstores: You can also purchase a physical copy of the book from online bookstores like Amazon or Abebooks.</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Carey, J. W. (1989). Communication as Culture: Essays on Media and Society. New York: Routledge.</strong></li>
+</ol>
+<ul>
+<li>Online archives: You can find a scanned copy of the book on the Internet Archive (archive.org).</li>
+<li>University libraries: Check if your university library has a physical copy of the book or access to a digital version through their online catalog.</li>
+<li>Google Books: You can also find a preview of the book on Google Books, but it might not be available for full download.</li>
+<li>Bookstores: You can also purchase a physical copy of the book from online bookstores like Amazon or Abebooks.</li>
+</ul>
+<p>Remember to always check the copyright and usage rights before sharing or distributing any of these sources.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>All of these answers don’t give actual locations or address, and I cant find these copies for the life of me (at least in full text format, as some are photos of pages). That said, the A.I. is completely accurate which is odd.</p>
 
 
 </section>

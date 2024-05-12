@@ -7,6 +7,6 @@ This repository holds blog posts in which I experimented with what LLM's can han
 While a tad disorganized, I hope the contents of this repository can bring enjoyment to some! 
 **Links**
 
-[Posts](Posts)
+[Posts](posts)
 
-[Quarto Files](Quarto Files)
+[Quarto Files](QuartoFiles)
